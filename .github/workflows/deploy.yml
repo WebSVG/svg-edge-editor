@@ -20,4 +20,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "svg-edge-editor"
-          entrypoint: "./main.ts" # TODO: update entrypoint
+          entrypoint: "./dist/server/entry.mjs"

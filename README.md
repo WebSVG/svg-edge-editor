@@ -15,6 +15,7 @@ pnpm need to be installed globally
 ```shell
     pnpm install
     pnpm run dev
+    deno run --allow-env --allow-net --allow-read dist/server/entry.mjs
 ```
 ## Frameworks
 * Astro.build
