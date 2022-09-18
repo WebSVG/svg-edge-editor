@@ -12,13 +12,17 @@ SVG import and edit edges with input SVG curves, runs as a service with proper U
 # Dev
 ## Usage
 pnpm need to be installed globally
+```shell
     pnpm install
+    pnpm run dev
+```
 ## Frameworks
 * Astro.build
 * pnpm
-* deno server (try aws and deno deploy)
-* sign-in with github
+* SSR Mode with deno
 * tailwind web only (or fallback on solid/svelte)
+* sign-in with github
+* try aws / deno deploy
 ## Features
 * Top menu with entries and sign in
 * css adjustable side menu with min max
