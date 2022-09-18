@@ -1,20 +1,13 @@
 ---
+import Layout from '../layouts/Layout.astro'
 const title = "SVG Edges"
 console.log("I'm here")
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/ico" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<h1 class="font-bold text-xl p-1">SVG Edges Editor</h1>
-		<div>
-			Hi
-		</div>
-	</body>
-</html>
+<Layout title={title}>
+	<h1 class="font-bold text-xl p-1">SVG Edge Editor</h1>
+	<div class="flex justify-around">
+		<div>Hi</div>
+		<div>Hi</div>
+		<div>Hi</div>
+	</div>
+</Layout>
