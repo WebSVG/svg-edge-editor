@@ -24,6 +24,8 @@ pnpm need to be installed globally
 * tailwind web only (or fallback on solid/svelte)
 * sign-in with github
 * try aws / deno deploy
+### deno deploy
+* pnpm action from https://github.com/pnpm/action-setup
 ## Features
 * Top menu with entries and sign in
 * css adjustable side menu with min max
