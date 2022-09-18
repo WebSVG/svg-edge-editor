@@ -1,5 +1,5 @@
 name: Deploy
-on: [push]
+on: [] # disable deno deploy due to fallback on node for unavailable @astro-auth/core
 
 jobs:
   deploy:

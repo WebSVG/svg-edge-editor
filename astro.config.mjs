@@ -1,12 +1,13 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
-
 import react from "@astrojs/react";
 import deno from "@astrojs/deno";
 
+import node from "@astrojs/node";
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(),react()],
+  integrations: [tailwind(), react()],
   output: "server",
-  adapter: deno()
+  adapter: node()
 });

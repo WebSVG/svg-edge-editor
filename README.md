@@ -29,3 +29,9 @@ pnpm need to be installed globally
 ## Features
 * Top menu with entries and sign in
 * css adjustable side menu with min max
+
+# Issues
+* @astro-auth/core does not build with deno 
+```cmd
+[commonjs--resolver] Cannot bundle Node.js built-in "stream" imported from "node_modules\.pnpm\@astro-auth+core@1.0.12\node_modules\@astro-auth\core\dist\index.js". Consider disabling ssr.noExternal or remove the built-in dependency.  ncy.
+```
