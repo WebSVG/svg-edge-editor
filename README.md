@@ -9,7 +9,11 @@ SVG import and edit edges with input SVG curves, runs as a service with proper U
 * click again on edge to toggle
 * click on another curve to assign
 
-# Frameworks
+# Dev
+## Usage
+pnpm need to be installed globally
+    pnpm install
+## Frameworks
 * Astro.build
 * pnpm
 * deno server (try aws and deno deploy)
