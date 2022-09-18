@@ -1,11 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/deno': ^1.0.1
   '@astrojs/tailwind': ^2.0.1
   astro: ^1.2.6
   tailwindcss: ^3.0.24
 
 dependencies:
+  '@astrojs/deno': 1.0.1
   '@astrojs/tailwind': 2.0.1_tailwindcss@3.1.8
   astro: 1.2.6
   tailwindcss: 3.1.8
@@ -26,6 +28,12 @@ packages:
 
   /@astrojs/compiler/0.24.0:
     resolution: {integrity: sha512-xZ81C/oMfExdF18I1Tyd2BKKzBqO+qYYctSy4iCwH4UWSo/4Y8A8MAzV1hG67uuE7hFRourSl6H5KUbhyChv/A==}
+    dev: false
+
+  /@astrojs/deno/1.0.1:
+    resolution: {integrity: sha512-8IDe9INLJUCscd1kfMIm4C+9E6ha+6ILmkFjLoas5D9fxWREei6vcztrckwHxTN1sCSwhJFLB0VK6KR1BxRFXg==}
+    dependencies:
+      esbuild: 0.14.54
     dev: false
 
   /@astrojs/language-server/0.23.3:
