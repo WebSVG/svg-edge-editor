@@ -37,5 +37,6 @@ function dragOverHandler(ev) {
 
 export {
     dropHandler,
-    dragOverHandler
+    dragOverHandler,
+    load_svg
 }

@@ -1,13 +1,32 @@
 ---
+import Curve1 from '../../public/data/curves/curve-1.svg'
+import Curve2 from '../../public/data/curves/curve-2.svg'
 const host = import.meta.env.HOST
+
 ---
-<div id="edges"></div>
+<div id="edges">
+    <object data={Curve1}/>
+    <object data={Curve2}/>
+</div>
+
+
 
 <style>
     #edges{
         background-color:bisque;
         min-width: 200px;
         min-height: 200px;
-        margin : 5px
+        margin : 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+    }
+    object{
+        background-color: aliceblue;
+        width:80%;
+        border-radius: 10%;
+        padding:5px;
     }
 </style>

@@ -1,7 +1,9 @@
 import {Svg} from "./svg_utils.js"
 import {EdgeStyle} from "./edge-style.js"
 import {html} from "./web-js-utils.js"
+import {Geometry} from "./geometry.js"
 
+let geom = new Geometry()
 let svg_utl = new Svg()
 let estyle = new EdgeStyle()
 
@@ -34,27 +36,34 @@ function extract_edges(svg){
     return result;
 }
 
+let singleton = null
+
 class diagram_app{
     constructor(){
         this.edges = []
         this.edge_style_list = []
+        this.centers = []
+        this.norms = []
         this.svg = null
+        singleton = this
     }
     init(svg_el){
-        svg_el.addEventListener("click",(e)=>{this.click(e)})
         this.edges = extract_edges(svg_el)
         this.edge_style_list = new Array(this.edges.length).fill(0);
-        console.log(this.edges)
+        this.centers = new Array(this.edges.length).fill({x:0,y:0});
+        this.norms = new Array(this.edges.length).fill({x:0,y:0});
+        this.edges.forEach((edge,index)=>{
+            this.centers[index] = geom.center(edge.v1,edge.v2)
+            this.norms[index] = geom.distance(edge.v1,edge.v2)
+        })
         this.svg = svg_el
-    }
-    click(e){
-        console.log(`clicked on (${e.offsetX},${e.offsetY}) `)
-        this.redraw()
+        this.redraw(true)
     }
 
-    redraw(){
+    redraw(blink){
         svg_utl.clear_svg(this.svg)
         this.draw_edges()
+        this.draw_edges_centers(blink)
     }
 
     draw_edges(){
@@ -64,7 +73,29 @@ class diagram_app{
         this.edges.forEach((e,i)=>{
                 d = d + estyle.curved_line(e,this.edge_style_list[i])
         })
-        return html(group,/*html*/`<path id="svg_path_edges" d="${d}" stroke="red" stroke-width="2" fill="none"/>`)
+        return html(group,/*html*/`<path id="svg_path_edges" d="${d}" stroke="#111111" stroke-width="3" fill="none"/>`)
+    }
+    selector_click(e){
+        const index = parseInt(e.target.id.split('-')[1])
+        const that = singleton
+        that.edge_style_list[index] += 1
+        if(that.edge_style_list[index]>2){
+            that.edge_style_list[index] = 0
+        }
+        console.log(`edge ${index} at ${that.edge_style_list[index]}`)
+        that.redraw(false)
+        e.stopPropagation()
+    }
+    draw_edges_centers(blink){
+        svg_utl.set_parent(this.svg)
+        let group = html(this.svg,/*html*/`<g id="svg_g_centers"/>`)
+        this.centers.forEach((c,i)=>{
+            const radius = Math.round(this.norms[i]/4)
+            const edge_class = blink?"edge-blinker":""
+            let selector = html(group,
+                /*html*/`<circle id="edge-${i}" class="edge-selector ${edge_class}" cx=${c.x} cy=${c.y} r="${radius}" stroke-width="0" fill="#00000000"/>`)
+            selector.addEventListener("click",this.selector_click)
+        })
     }
 }
 

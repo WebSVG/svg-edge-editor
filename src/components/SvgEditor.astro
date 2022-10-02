@@ -6,7 +6,7 @@ const host = import.meta.env.HOST
 </div>
 
 
-<style>
+<style is:inline>
     #editor{
         background-color: aquamarine;
         min-width: 1200px;
@@ -16,11 +16,28 @@ const host = import.meta.env.HOST
         align-items: center;
         justify-content: center;
     }
+
+    .edge-selector:hover{
+        fill:rgba(202, 128, 115, 0.24);
+        transition: 0.3s;
+    }
+
+    .edge-blinker{
+        animation: blink 2s;
+    }
+    @keyframes blink {
+        0%    {fill: #00000000;}
+        50%   {fill: rgba(202, 128, 115, 0.24);}
+        100%  {fill: #00000000;}
+    }    
 </style>
 
-<script client:only type="module">
-    import {dropHandler,dragOverHandler} from "/src/editor_handlers.js"
+<script type="module">
+    import {load_svg,dropHandler,dragOverHandler} from "/src/editor_handlers.js"
     const editor = document.getElementById("editor")
     editor.addEventListener("drop",dropHandler)
     editor.addEventListener("dragover",dragOverHandler)
+    const response = await fetch(location.href+'data/voronoi_svg_export.svg')
+    const svg_file = await response.text()
+    load_svg(svg_file)
 </script>
