@@ -1,13 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import SvgEditor from '../components/SvgEditor.astro'
+import EdgesStyles from '../components/EdgesStyles.astro'
+
 const title = "SVG Edges"
 console.log("I'm here")
 ---
 <Layout title={title}>
-	<h1 class="font-bold text-xl p-1">SVG Edge Editor</h1>
-	<div class="flex justify-around">
-		<div>Hi</div>
-		<div>Hi</div>
-		<div>Hi</div>
+	<div class="mycontainer">
+
+		<SvgEditor/>
+		<EdgesStyles/>	
 	</div>
 </Layout>
+
+<style>
+	.mycontainer{
+		display: flex;
+		background-color: grey;
+		justify-content:space-around;
+	}
+</style>

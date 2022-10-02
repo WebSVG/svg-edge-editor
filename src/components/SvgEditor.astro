@@ -1,0 +1,17 @@
+---
+import Voronoi from "../../public/voronoi_svg_export.svg"
+const host = import.meta.env.HOST
+---
+<div id="editor">
+    <object data={Voronoi}/>
+</div>
+
+
+<style>
+    #editor{
+        background-color: aquamarine;
+        min-width: 700px;
+        min-height: 500px;
+        margin : 5px
+    }
+</style>
