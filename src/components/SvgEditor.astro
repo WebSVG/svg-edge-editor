@@ -1,17 +1,26 @@
 ---
-import Voronoi from "../../public/voronoi_svg_export.svg"
 const host = import.meta.env.HOST
 ---
-<div id="editor">
-    <object data={Voronoi}/>
+<div id="editor"  >
+    <p id="hint" class="text-lg">Drag an SVG File here to get started</p>
 </div>
 
 
 <style>
     #editor{
         background-color: aquamarine;
-        min-width: 700px;
-        min-height: 500px;
-        margin : 5px
+        min-width: 1200px;
+        min-height: 400px;
+        margin : 5px;
+        display : flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>
+
+<script client:only type="module">
+    import {dropHandler,dragOverHandler} from "/src/editor_handlers.js"
+    const editor = document.getElementById("editor")
+    editor.addEventListener("drop",dropHandler)
+    editor.addEventListener("dragover",dragOverHandler)
+</script>

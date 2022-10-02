@@ -4,17 +4,31 @@ const title = "SVG Edges"
 const host = import.meta.env.HOST
 ---
 <Layout title={title}>
-	<h1 class="font-bold text-xl p-1">SVG Edge Editor</h1>
-	<p class="ml-3">More info on <a class="underline" href="https://github.com/WebSVG/svg-edge-editor" target="_blank">github repo</a>
-	</p>
-	<div class="relative m-3">
-		<a  href="https://github.com/WebSVG/svg-edge-editor" target="_blank">
-		  <button type="button"
-		  class="flex rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-		  aria-expanded="false" aria-haspopup="true">
-		  <img class="h-8 w-8 rounded-full" src={`${host}/github.png`} alt="">
-		</button>
-	  </a>
-	  </div>
+	<figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800 shadow-md">
+		<img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={`${host}/design.png`} alt="" width="384" height="512">
+		<div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+		  <blockquote>
+			<p class="text-lg font-medium">
+			  “This Editor is an open source project exploring Web apps and SVG interactivity possibilities”
+			</p>
+		  </blockquote>
+		  <figcaption class="font-medium">
+			<div class="text-sky-500 dark:text-sky-400">
+			  WassFila
+			</div>
+			<div class="text-slate-700 dark:text-slate-500">
+			  Web developper,...
+			</div>
+			<p class="mt-5"><a class="underline" href="https://github.com/WebSVG/svg-edge-editor" target="_blank">Project github repo</a></p>
+		  </figcaption>
+		  <a  href="https://github.com/WebSVG/svg-edge-editor" target="_blank">
+			<button type="button"
+			class="mt-2 flex rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+			aria-expanded="false" aria-haspopup="true">
+			<img class="h-8 w-8 rounded-full" src={`${host}/github.png`} alt="">
+		  </button>
+		</a>
+		</div>
+	  </figure>
 
 </Layout>
