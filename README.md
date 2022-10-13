@@ -30,6 +30,9 @@ pnpm need to be installed globally
 * Top menu with entries and sign in
 * css adjustable side menu with min max
 
+# TODO
+* improve the coordinates Offset not to be hardcoded but to the SVG Offset within the client
+
 # Issues
 * @astro-auth/core does not build with deno 
 ```cmd
