@@ -32,6 +32,7 @@ pnpm need to be installed globally
 
 # TODO
 * improve the coordinates Offset not to be hardcoded but to the SVG Offset within the client
+* only cycle the shape when clicking on the same side
 
 # Issues
 * @astro-auth/core does not build with deno 

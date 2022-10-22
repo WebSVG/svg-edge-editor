@@ -4,15 +4,11 @@ import Curve2 from '../../public/data/curves/curve-2.svg'
 const host = import.meta.env.HOST
 
 ---
-<div id="edges">
-    <object data={Curve1}/>
-    <object data={Curve2}/>
-</div>
+<div id="curves"/>
 
-
-
-<style>
-    #edges{
+<style is:inline>
+    #curves{
+        padding:10px;
         background-color:bisque;
         min-width: 200px;
         min-height: 200px;
@@ -22,11 +18,27 @@ const host = import.meta.env.HOST
         align-items: center;
         align-content: space-around;
         justify-content: center;
+        gap:10px;
     }
-    object{
+    .item > svg{
         background-color: aliceblue;
         width:80%;
         border-radius: 10%;
         padding:5px;
+        max-height: 200px;
     }
 </style>
+
+
+<script type="module">
+    import {inject_curve,dropHandler,dragOverHandler} from "/src/edge_styles_handlers.js"
+    const curves = document.getElementById("curves")
+    curves.addEventListener("drop",dropHandler)
+    curves.addEventListener("dragover",dragOverHandler)
+    const response1 = await fetch(location.href+'data/curves/curve-1.svg')
+    const file1 = await response1.text()
+    const response2 = await fetch(location.href+'data/curves/curve-2.svg')
+    const file2 = await response2.text()
+    inject_curve(file1)
+    inject_curve(file2)
+</script>

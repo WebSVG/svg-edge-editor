@@ -56,7 +56,321 @@ var standard = { "application/andrew-inset": ["ez"], "application/applixware": [
 var other = { "application/prs.cww": ["cww"], "application/vnd.1000minds.decision-model+xml": ["1km"], "application/vnd.3gpp.pic-bw-large": ["plb"], "application/vnd.3gpp.pic-bw-small": ["psb"], "application/vnd.3gpp.pic-bw-var": ["pvb"], "application/vnd.3gpp2.tcap": ["tcap"], "application/vnd.3m.post-it-notes": ["pwn"], "application/vnd.accpac.simply.aso": ["aso"], "application/vnd.accpac.simply.imp": ["imp"], "application/vnd.acucobol": ["acu"], "application/vnd.acucorp": ["atc", "acutc"], "application/vnd.adobe.air-application-installer-package+zip": ["air"], "application/vnd.adobe.formscentral.fcdt": ["fcdt"], "application/vnd.adobe.fxp": ["fxp", "fxpl"], "application/vnd.adobe.xdp+xml": ["xdp"], "application/vnd.adobe.xfdf": ["xfdf"], "application/vnd.ahead.space": ["ahead"], "application/vnd.airzip.filesecure.azf": ["azf"], "application/vnd.airzip.filesecure.azs": ["azs"], "application/vnd.amazon.ebook": ["azw"], "application/vnd.americandynamics.acc": ["acc"], "application/vnd.amiga.ami": ["ami"], "application/vnd.android.package-archive": ["apk"], "application/vnd.anser-web-certificate-issue-initiation": ["cii"], "application/vnd.anser-web-funds-transfer-initiation": ["fti"], "application/vnd.antix.game-component": ["atx"], "application/vnd.apple.installer+xml": ["mpkg"], "application/vnd.apple.keynote": ["key"], "application/vnd.apple.mpegurl": ["m3u8"], "application/vnd.apple.numbers": ["numbers"], "application/vnd.apple.pages": ["pages"], "application/vnd.apple.pkpass": ["pkpass"], "application/vnd.aristanetworks.swi": ["swi"], "application/vnd.astraea-software.iota": ["iota"], "application/vnd.audiograph": ["aep"], "application/vnd.balsamiq.bmml+xml": ["bmml"], "application/vnd.blueice.multipass": ["mpm"], "application/vnd.bmi": ["bmi"], "application/vnd.businessobjects": ["rep"], "application/vnd.chemdraw+xml": ["cdxml"], "application/vnd.chipnuts.karaoke-mmd": ["mmd"], "application/vnd.cinderella": ["cdy"], "application/vnd.citationstyles.style+xml": ["csl"], "application/vnd.claymore": ["cla"], "application/vnd.cloanto.rp9": ["rp9"], "application/vnd.clonk.c4group": ["c4g", "c4d", "c4f", "c4p", "c4u"], "application/vnd.cluetrust.cartomobile-config": ["c11amc"], "application/vnd.cluetrust.cartomobile-config-pkg": ["c11amz"], "application/vnd.commonspace": ["csp"], "application/vnd.contact.cmsg": ["cdbcmsg"], "application/vnd.cosmocaller": ["cmc"], "application/vnd.crick.clicker": ["clkx"], "application/vnd.crick.clicker.keyboard": ["clkk"], "application/vnd.crick.clicker.palette": ["clkp"], "application/vnd.crick.clicker.template": ["clkt"], "application/vnd.crick.clicker.wordbank": ["clkw"], "application/vnd.criticaltools.wbs+xml": ["wbs"], "application/vnd.ctc-posml": ["pml"], "application/vnd.cups-ppd": ["ppd"], "application/vnd.curl.car": ["car"], "application/vnd.curl.pcurl": ["pcurl"], "application/vnd.dart": ["dart"], "application/vnd.data-vision.rdz": ["rdz"], "application/vnd.dbf": ["dbf"], "application/vnd.dece.data": ["uvf", "uvvf", "uvd", "uvvd"], "application/vnd.dece.ttml+xml": ["uvt", "uvvt"], "application/vnd.dece.unspecified": ["uvx", "uvvx"], "application/vnd.dece.zip": ["uvz", "uvvz"], "application/vnd.denovo.fcselayout-link": ["fe_launch"], "application/vnd.dna": ["dna"], "application/vnd.dolby.mlp": ["mlp"], "application/vnd.dpgraph": ["dpg"], "application/vnd.dreamfactory": ["dfac"], "application/vnd.ds-keypoint": ["kpxx"], "application/vnd.dvb.ait": ["ait"], "application/vnd.dvb.service": ["svc"], "application/vnd.dynageo": ["geo"], "application/vnd.ecowin.chart": ["mag"], "application/vnd.enliven": ["nml"], "application/vnd.epson.esf": ["esf"], "application/vnd.epson.msf": ["msf"], "application/vnd.epson.quickanime": ["qam"], "application/vnd.epson.salt": ["slt"], "application/vnd.epson.ssf": ["ssf"], "application/vnd.eszigno3+xml": ["es3", "et3"], "application/vnd.ezpix-album": ["ez2"], "application/vnd.ezpix-package": ["ez3"], "application/vnd.fdf": ["fdf"], "application/vnd.fdsn.mseed": ["mseed"], "application/vnd.fdsn.seed": ["seed", "dataless"], "application/vnd.flographit": ["gph"], "application/vnd.fluxtime.clip": ["ftc"], "application/vnd.framemaker": ["fm", "frame", "maker", "book"], "application/vnd.frogans.fnc": ["fnc"], "application/vnd.frogans.ltf": ["ltf"], "application/vnd.fsc.weblaunch": ["fsc"], "application/vnd.fujitsu.oasys": ["oas"], "application/vnd.fujitsu.oasys2": ["oa2"], "application/vnd.fujitsu.oasys3": ["oa3"], "application/vnd.fujitsu.oasysgp": ["fg5"], "application/vnd.fujitsu.oasysprs": ["bh2"], "application/vnd.fujixerox.ddd": ["ddd"], "application/vnd.fujixerox.docuworks": ["xdw"], "application/vnd.fujixerox.docuworks.binder": ["xbd"], "application/vnd.fuzzysheet": ["fzs"], "application/vnd.genomatix.tuxedo": ["txd"], "application/vnd.geogebra.file": ["ggb"], "application/vnd.geogebra.tool": ["ggt"], "application/vnd.geometry-explorer": ["gex", "gre"], "application/vnd.geonext": ["gxt"], "application/vnd.geoplan": ["g2w"], "application/vnd.geospace": ["g3w"], "application/vnd.gmx": ["gmx"], "application/vnd.google-apps.document": ["gdoc"], "application/vnd.google-apps.presentation": ["gslides"], "application/vnd.google-apps.spreadsheet": ["gsheet"], "application/vnd.google-earth.kml+xml": ["kml"], "application/vnd.google-earth.kmz": ["kmz"], "application/vnd.grafeq": ["gqf", "gqs"], "application/vnd.groove-account": ["gac"], "application/vnd.groove-help": ["ghf"], "application/vnd.groove-identity-message": ["gim"], "application/vnd.groove-injector": ["grv"], "application/vnd.groove-tool-message": ["gtm"], "application/vnd.groove-tool-template": ["tpl"], "application/vnd.groove-vcard": ["vcg"], "application/vnd.hal+xml": ["hal"], "application/vnd.handheld-entertainment+xml": ["zmm"], "application/vnd.hbci": ["hbci"], "application/vnd.hhe.lesson-player": ["les"], "application/vnd.hp-hpgl": ["hpgl"], "application/vnd.hp-hpid": ["hpid"], "application/vnd.hp-hps": ["hps"], "application/vnd.hp-jlyt": ["jlt"], "application/vnd.hp-pcl": ["pcl"], "application/vnd.hp-pclxl": ["pclxl"], "application/vnd.hydrostatix.sof-data": ["sfd-hdstx"], "application/vnd.ibm.minipay": ["mpy"], "application/vnd.ibm.modcap": ["afp", "listafp", "list3820"], "application/vnd.ibm.rights-management": ["irm"], "application/vnd.ibm.secure-container": ["sc"], "application/vnd.iccprofile": ["icc", "icm"], "application/vnd.igloader": ["igl"], "application/vnd.immervision-ivp": ["ivp"], "application/vnd.immervision-ivu": ["ivu"], "application/vnd.insors.igm": ["igm"], "application/vnd.intercon.formnet": ["xpw", "xpx"], "application/vnd.intergeo": ["i2g"], "application/vnd.intu.qbo": ["qbo"], "application/vnd.intu.qfx": ["qfx"], "application/vnd.ipunplugged.rcprofile": ["rcprofile"], "application/vnd.irepository.package+xml": ["irp"], "application/vnd.is-xpr": ["xpr"], "application/vnd.isac.fcs": ["fcs"], "application/vnd.jam": ["jam"], "application/vnd.jcp.javame.midlet-rms": ["rms"], "application/vnd.jisp": ["jisp"], "application/vnd.joost.joda-archive": ["joda"], "application/vnd.kahootz": ["ktz", "ktr"], "application/vnd.kde.karbon": ["karbon"], "application/vnd.kde.kchart": ["chrt"], "application/vnd.kde.kformula": ["kfo"], "application/vnd.kde.kivio": ["flw"], "application/vnd.kde.kontour": ["kon"], "application/vnd.kde.kpresenter": ["kpr", "kpt"], "application/vnd.kde.kspread": ["ksp"], "application/vnd.kde.kword": ["kwd", "kwt"], "application/vnd.kenameaapp": ["htke"], "application/vnd.kidspiration": ["kia"], "application/vnd.kinar": ["kne", "knp"], "application/vnd.koan": ["skp", "skd", "skt", "skm"], "application/vnd.kodak-descriptor": ["sse"], "application/vnd.las.las+xml": ["lasxml"], "application/vnd.llamagraphics.life-balance.desktop": ["lbd"], "application/vnd.llamagraphics.life-balance.exchange+xml": ["lbe"], "application/vnd.lotus-1-2-3": ["123"], "application/vnd.lotus-approach": ["apr"], "application/vnd.lotus-freelance": ["pre"], "application/vnd.lotus-notes": ["nsf"], "application/vnd.lotus-organizer": ["org"], "application/vnd.lotus-screencam": ["scm"], "application/vnd.lotus-wordpro": ["lwp"], "application/vnd.macports.portpkg": ["portpkg"], "application/vnd.mapbox-vector-tile": ["mvt"], "application/vnd.mcd": ["mcd"], "application/vnd.medcalcdata": ["mc1"], "application/vnd.mediastation.cdkey": ["cdkey"], "application/vnd.mfer": ["mwf"], "application/vnd.mfmp": ["mfm"], "application/vnd.micrografx.flo": ["flo"], "application/vnd.micrografx.igx": ["igx"], "application/vnd.mif": ["mif"], "application/vnd.mobius.daf": ["daf"], "application/vnd.mobius.dis": ["dis"], "application/vnd.mobius.mbk": ["mbk"], "application/vnd.mobius.mqy": ["mqy"], "application/vnd.mobius.msl": ["msl"], "application/vnd.mobius.plc": ["plc"], "application/vnd.mobius.txf": ["txf"], "application/vnd.mophun.application": ["mpn"], "application/vnd.mophun.certificate": ["mpc"], "application/vnd.mozilla.xul+xml": ["xul"], "application/vnd.ms-artgalry": ["cil"], "application/vnd.ms-cab-compressed": ["cab"], "application/vnd.ms-excel": ["xls", "xlm", "xla", "xlc", "xlt", "xlw"], "application/vnd.ms-excel.addin.macroenabled.12": ["xlam"], "application/vnd.ms-excel.sheet.binary.macroenabled.12": ["xlsb"], "application/vnd.ms-excel.sheet.macroenabled.12": ["xlsm"], "application/vnd.ms-excel.template.macroenabled.12": ["xltm"], "application/vnd.ms-fontobject": ["eot"], "application/vnd.ms-htmlhelp": ["chm"], "application/vnd.ms-ims": ["ims"], "application/vnd.ms-lrm": ["lrm"], "application/vnd.ms-officetheme": ["thmx"], "application/vnd.ms-outlook": ["msg"], "application/vnd.ms-pki.seccat": ["cat"], "application/vnd.ms-pki.stl": ["*stl"], "application/vnd.ms-powerpoint": ["ppt", "pps", "pot"], "application/vnd.ms-powerpoint.addin.macroenabled.12": ["ppam"], "application/vnd.ms-powerpoint.presentation.macroenabled.12": ["pptm"], "application/vnd.ms-powerpoint.slide.macroenabled.12": ["sldm"], "application/vnd.ms-powerpoint.slideshow.macroenabled.12": ["ppsm"], "application/vnd.ms-powerpoint.template.macroenabled.12": ["potm"], "application/vnd.ms-project": ["mpp", "mpt"], "application/vnd.ms-word.document.macroenabled.12": ["docm"], "application/vnd.ms-word.template.macroenabled.12": ["dotm"], "application/vnd.ms-works": ["wps", "wks", "wcm", "wdb"], "application/vnd.ms-wpl": ["wpl"], "application/vnd.ms-xpsdocument": ["xps"], "application/vnd.mseq": ["mseq"], "application/vnd.musician": ["mus"], "application/vnd.muvee.style": ["msty"], "application/vnd.mynfc": ["taglet"], "application/vnd.neurolanguage.nlu": ["nlu"], "application/vnd.nitf": ["ntf", "nitf"], "application/vnd.noblenet-directory": ["nnd"], "application/vnd.noblenet-sealer": ["nns"], "application/vnd.noblenet-web": ["nnw"], "application/vnd.nokia.n-gage.ac+xml": ["*ac"], "application/vnd.nokia.n-gage.data": ["ngdat"], "application/vnd.nokia.n-gage.symbian.install": ["n-gage"], "application/vnd.nokia.radio-preset": ["rpst"], "application/vnd.nokia.radio-presets": ["rpss"], "application/vnd.novadigm.edm": ["edm"], "application/vnd.novadigm.edx": ["edx"], "application/vnd.novadigm.ext": ["ext"], "application/vnd.oasis.opendocument.chart": ["odc"], "application/vnd.oasis.opendocument.chart-template": ["otc"], "application/vnd.oasis.opendocument.database": ["odb"], "application/vnd.oasis.opendocument.formula": ["odf"], "application/vnd.oasis.opendocument.formula-template": ["odft"], "application/vnd.oasis.opendocument.graphics": ["odg"], "application/vnd.oasis.opendocument.graphics-template": ["otg"], "application/vnd.oasis.opendocument.image": ["odi"], "application/vnd.oasis.opendocument.image-template": ["oti"], "application/vnd.oasis.opendocument.presentation": ["odp"], "application/vnd.oasis.opendocument.presentation-template": ["otp"], "application/vnd.oasis.opendocument.spreadsheet": ["ods"], "application/vnd.oasis.opendocument.spreadsheet-template": ["ots"], "application/vnd.oasis.opendocument.text": ["odt"], "application/vnd.oasis.opendocument.text-master": ["odm"], "application/vnd.oasis.opendocument.text-template": ["ott"], "application/vnd.oasis.opendocument.text-web": ["oth"], "application/vnd.olpc-sugar": ["xo"], "application/vnd.oma.dd2+xml": ["dd2"], "application/vnd.openblox.game+xml": ["obgx"], "application/vnd.openofficeorg.extension": ["oxt"], "application/vnd.openstreetmap.data+xml": ["osm"], "application/vnd.openxmlformats-officedocument.presentationml.presentation": ["pptx"], "application/vnd.openxmlformats-officedocument.presentationml.slide": ["sldx"], "application/vnd.openxmlformats-officedocument.presentationml.slideshow": ["ppsx"], "application/vnd.openxmlformats-officedocument.presentationml.template": ["potx"], "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": ["xlsx"], "application/vnd.openxmlformats-officedocument.spreadsheetml.template": ["xltx"], "application/vnd.openxmlformats-officedocument.wordprocessingml.document": ["docx"], "application/vnd.openxmlformats-officedocument.wordprocessingml.template": ["dotx"], "application/vnd.osgeo.mapguide.package": ["mgp"], "application/vnd.osgi.dp": ["dp"], "application/vnd.osgi.subsystem": ["esa"], "application/vnd.palm": ["pdb", "pqa", "oprc"], "application/vnd.pawaafile": ["paw"], "application/vnd.pg.format": ["str"], "application/vnd.pg.osasli": ["ei6"], "application/vnd.picsel": ["efif"], "application/vnd.pmi.widget": ["wg"], "application/vnd.pocketlearn": ["plf"], "application/vnd.powerbuilder6": ["pbd"], "application/vnd.previewsystems.box": ["box"], "application/vnd.proteus.magazine": ["mgz"], "application/vnd.publishare-delta-tree": ["qps"], "application/vnd.pvi.ptid1": ["ptid"], "application/vnd.quark.quarkxpress": ["qxd", "qxt", "qwd", "qwt", "qxl", "qxb"], "application/vnd.rar": ["rar"], "application/vnd.realvnc.bed": ["bed"], "application/vnd.recordare.musicxml": ["mxl"], "application/vnd.recordare.musicxml+xml": ["musicxml"], "application/vnd.rig.cryptonote": ["cryptonote"], "application/vnd.rim.cod": ["cod"], "application/vnd.rn-realmedia": ["rm"], "application/vnd.rn-realmedia-vbr": ["rmvb"], "application/vnd.route66.link66+xml": ["link66"], "application/vnd.sailingtracker.track": ["st"], "application/vnd.seemail": ["see"], "application/vnd.sema": ["sema"], "application/vnd.semd": ["semd"], "application/vnd.semf": ["semf"], "application/vnd.shana.informed.formdata": ["ifm"], "application/vnd.shana.informed.formtemplate": ["itp"], "application/vnd.shana.informed.interchange": ["iif"], "application/vnd.shana.informed.package": ["ipk"], "application/vnd.simtech-mindmapper": ["twd", "twds"], "application/vnd.smaf": ["mmf"], "application/vnd.smart.teacher": ["teacher"], "application/vnd.software602.filler.form+xml": ["fo"], "application/vnd.solent.sdkm+xml": ["sdkm", "sdkd"], "application/vnd.spotfire.dxp": ["dxp"], "application/vnd.spotfire.sfs": ["sfs"], "application/vnd.stardivision.calc": ["sdc"], "application/vnd.stardivision.draw": ["sda"], "application/vnd.stardivision.impress": ["sdd"], "application/vnd.stardivision.math": ["smf"], "application/vnd.stardivision.writer": ["sdw", "vor"], "application/vnd.stardivision.writer-global": ["sgl"], "application/vnd.stepmania.package": ["smzip"], "application/vnd.stepmania.stepchart": ["sm"], "application/vnd.sun.wadl+xml": ["wadl"], "application/vnd.sun.xml.calc": ["sxc"], "application/vnd.sun.xml.calc.template": ["stc"], "application/vnd.sun.xml.draw": ["sxd"], "application/vnd.sun.xml.draw.template": ["std"], "application/vnd.sun.xml.impress": ["sxi"], "application/vnd.sun.xml.impress.template": ["sti"], "application/vnd.sun.xml.math": ["sxm"], "application/vnd.sun.xml.writer": ["sxw"], "application/vnd.sun.xml.writer.global": ["sxg"], "application/vnd.sun.xml.writer.template": ["stw"], "application/vnd.sus-calendar": ["sus", "susp"], "application/vnd.svd": ["svd"], "application/vnd.symbian.install": ["sis", "sisx"], "application/vnd.syncml+xml": ["xsm"], "application/vnd.syncml.dm+wbxml": ["bdm"], "application/vnd.syncml.dm+xml": ["xdm"], "application/vnd.syncml.dmddf+xml": ["ddf"], "application/vnd.tao.intent-module-archive": ["tao"], "application/vnd.tcpdump.pcap": ["pcap", "cap", "dmp"], "application/vnd.tmobile-livetv": ["tmo"], "application/vnd.trid.tpt": ["tpt"], "application/vnd.triscape.mxs": ["mxs"], "application/vnd.trueapp": ["tra"], "application/vnd.ufdl": ["ufd", "ufdl"], "application/vnd.uiq.theme": ["utz"], "application/vnd.umajin": ["umj"], "application/vnd.unity": ["unityweb"], "application/vnd.uoml+xml": ["uoml"], "application/vnd.vcx": ["vcx"], "application/vnd.visio": ["vsd", "vst", "vss", "vsw"], "application/vnd.visionary": ["vis"], "application/vnd.vsf": ["vsf"], "application/vnd.wap.wbxml": ["wbxml"], "application/vnd.wap.wmlc": ["wmlc"], "application/vnd.wap.wmlscriptc": ["wmlsc"], "application/vnd.webturbo": ["wtb"], "application/vnd.wolfram.player": ["nbp"], "application/vnd.wordperfect": ["wpd"], "application/vnd.wqd": ["wqd"], "application/vnd.wt.stf": ["stf"], "application/vnd.xara": ["xar"], "application/vnd.xfdl": ["xfdl"], "application/vnd.yamaha.hv-dic": ["hvd"], "application/vnd.yamaha.hv-script": ["hvs"], "application/vnd.yamaha.hv-voice": ["hvp"], "application/vnd.yamaha.openscoreformat": ["osf"], "application/vnd.yamaha.openscoreformat.osfpvg+xml": ["osfpvg"], "application/vnd.yamaha.smaf-audio": ["saf"], "application/vnd.yamaha.smaf-phrase": ["spf"], "application/vnd.yellowriver-custom-menu": ["cmp"], "application/vnd.zul": ["zir", "zirz"], "application/vnd.zzazz.deck+xml": ["zaz"], "application/x-7z-compressed": ["7z"], "application/x-abiword": ["abw"], "application/x-ace-compressed": ["ace"], "application/x-apple-diskimage": ["*dmg"], "application/x-arj": ["arj"], "application/x-authorware-bin": ["aab", "x32", "u32", "vox"], "application/x-authorware-map": ["aam"], "application/x-authorware-seg": ["aas"], "application/x-bcpio": ["bcpio"], "application/x-bdoc": ["*bdoc"], "application/x-bittorrent": ["torrent"], "application/x-blorb": ["blb", "blorb"], "application/x-bzip": ["bz"], "application/x-bzip2": ["bz2", "boz"], "application/x-cbr": ["cbr", "cba", "cbt", "cbz", "cb7"], "application/x-cdlink": ["vcd"], "application/x-cfs-compressed": ["cfs"], "application/x-chat": ["chat"], "application/x-chess-pgn": ["pgn"], "application/x-chrome-extension": ["crx"], "application/x-cocoa": ["cco"], "application/x-conference": ["nsc"], "application/x-cpio": ["cpio"], "application/x-csh": ["csh"], "application/x-debian-package": ["*deb", "udeb"], "application/x-dgc-compressed": ["dgc"], "application/x-director": ["dir", "dcr", "dxr", "cst", "cct", "cxt", "w3d", "fgd", "swa"], "application/x-doom": ["wad"], "application/x-dtbncx+xml": ["ncx"], "application/x-dtbook+xml": ["dtb"], "application/x-dtbresource+xml": ["res"], "application/x-dvi": ["dvi"], "application/x-envoy": ["evy"], "application/x-eva": ["eva"], "application/x-font-bdf": ["bdf"], "application/x-font-ghostscript": ["gsf"], "application/x-font-linux-psf": ["psf"], "application/x-font-pcf": ["pcf"], "application/x-font-snf": ["snf"], "application/x-font-type1": ["pfa", "pfb", "pfm", "afm"], "application/x-freearc": ["arc"], "application/x-futuresplash": ["spl"], "application/x-gca-compressed": ["gca"], "application/x-glulx": ["ulx"], "application/x-gnumeric": ["gnumeric"], "application/x-gramps-xml": ["gramps"], "application/x-gtar": ["gtar"], "application/x-hdf": ["hdf"], "application/x-httpd-php": ["php"], "application/x-install-instructions": ["install"], "application/x-iso9660-image": ["*iso"], "application/x-iwork-keynote-sffkey": ["*key"], "application/x-iwork-numbers-sffnumbers": ["*numbers"], "application/x-iwork-pages-sffpages": ["*pages"], "application/x-java-archive-diff": ["jardiff"], "application/x-java-jnlp-file": ["jnlp"], "application/x-keepass2": ["kdbx"], "application/x-latex": ["latex"], "application/x-lua-bytecode": ["luac"], "application/x-lzh-compressed": ["lzh", "lha"], "application/x-makeself": ["run"], "application/x-mie": ["mie"], "application/x-mobipocket-ebook": ["prc", "mobi"], "application/x-ms-application": ["application"], "application/x-ms-shortcut": ["lnk"], "application/x-ms-wmd": ["wmd"], "application/x-ms-wmz": ["wmz"], "application/x-ms-xbap": ["xbap"], "application/x-msaccess": ["mdb"], "application/x-msbinder": ["obd"], "application/x-mscardfile": ["crd"], "application/x-msclip": ["clp"], "application/x-msdos-program": ["*exe"], "application/x-msdownload": ["*exe", "*dll", "com", "bat", "*msi"], "application/x-msmediaview": ["mvb", "m13", "m14"], "application/x-msmetafile": ["*wmf", "*wmz", "*emf", "emz"], "application/x-msmoney": ["mny"], "application/x-mspublisher": ["pub"], "application/x-msschedule": ["scd"], "application/x-msterminal": ["trm"], "application/x-mswrite": ["wri"], "application/x-netcdf": ["nc", "cdf"], "application/x-ns-proxy-autoconfig": ["pac"], "application/x-nzb": ["nzb"], "application/x-perl": ["pl", "pm"], "application/x-pilot": ["*prc", "*pdb"], "application/x-pkcs12": ["p12", "pfx"], "application/x-pkcs7-certificates": ["p7b", "spc"], "application/x-pkcs7-certreqresp": ["p7r"], "application/x-rar-compressed": ["*rar"], "application/x-redhat-package-manager": ["rpm"], "application/x-research-info-systems": ["ris"], "application/x-sea": ["sea"], "application/x-sh": ["sh"], "application/x-shar": ["shar"], "application/x-shockwave-flash": ["swf"], "application/x-silverlight-app": ["xap"], "application/x-sql": ["sql"], "application/x-stuffit": ["sit"], "application/x-stuffitx": ["sitx"], "application/x-subrip": ["srt"], "application/x-sv4cpio": ["sv4cpio"], "application/x-sv4crc": ["sv4crc"], "application/x-t3vm-image": ["t3"], "application/x-tads": ["gam"], "application/x-tar": ["tar"], "application/x-tcl": ["tcl", "tk"], "application/x-tex": ["tex"], "application/x-tex-tfm": ["tfm"], "application/x-texinfo": ["texinfo", "texi"], "application/x-tgif": ["*obj"], "application/x-ustar": ["ustar"], "application/x-virtualbox-hdd": ["hdd"], "application/x-virtualbox-ova": ["ova"], "application/x-virtualbox-ovf": ["ovf"], "application/x-virtualbox-vbox": ["vbox"], "application/x-virtualbox-vbox-extpack": ["vbox-extpack"], "application/x-virtualbox-vdi": ["vdi"], "application/x-virtualbox-vhd": ["vhd"], "application/x-virtualbox-vmdk": ["vmdk"], "application/x-wais-source": ["src"], "application/x-web-app-manifest+json": ["webapp"], "application/x-x509-ca-cert": ["der", "crt", "pem"], "application/x-xfig": ["fig"], "application/x-xliff+xml": ["*xlf"], "application/x-xpinstall": ["xpi"], "application/x-xz": ["xz"], "application/x-zmachine": ["z1", "z2", "z3", "z4", "z5", "z6", "z7", "z8"], "audio/vnd.dece.audio": ["uva", "uvva"], "audio/vnd.digital-winds": ["eol"], "audio/vnd.dra": ["dra"], "audio/vnd.dts": ["dts"], "audio/vnd.dts.hd": ["dtshd"], "audio/vnd.lucent.voice": ["lvp"], "audio/vnd.ms-playready.media.pya": ["pya"], "audio/vnd.nuera.ecelp4800": ["ecelp4800"], "audio/vnd.nuera.ecelp7470": ["ecelp7470"], "audio/vnd.nuera.ecelp9600": ["ecelp9600"], "audio/vnd.rip": ["rip"], "audio/x-aac": ["aac"], "audio/x-aiff": ["aif", "aiff", "aifc"], "audio/x-caf": ["caf"], "audio/x-flac": ["flac"], "audio/x-m4a": ["*m4a"], "audio/x-matroska": ["mka"], "audio/x-mpegurl": ["m3u"], "audio/x-ms-wax": ["wax"], "audio/x-ms-wma": ["wma"], "audio/x-pn-realaudio": ["ram", "ra"], "audio/x-pn-realaudio-plugin": ["rmp"], "audio/x-realaudio": ["*ra"], "audio/x-wav": ["*wav"], "chemical/x-cdx": ["cdx"], "chemical/x-cif": ["cif"], "chemical/x-cmdf": ["cmdf"], "chemical/x-cml": ["cml"], "chemical/x-csml": ["csml"], "chemical/x-xyz": ["xyz"], "image/prs.btif": ["btif"], "image/prs.pti": ["pti"], "image/vnd.adobe.photoshop": ["psd"], "image/vnd.airzip.accelerator.azv": ["azv"], "image/vnd.dece.graphic": ["uvi", "uvvi", "uvg", "uvvg"], "image/vnd.djvu": ["djvu", "djv"], "image/vnd.dvb.subtitle": ["*sub"], "image/vnd.dwg": ["dwg"], "image/vnd.dxf": ["dxf"], "image/vnd.fastbidsheet": ["fbs"], "image/vnd.fpx": ["fpx"], "image/vnd.fst": ["fst"], "image/vnd.fujixerox.edmics-mmr": ["mmr"], "image/vnd.fujixerox.edmics-rlc": ["rlc"], "image/vnd.microsoft.icon": ["ico"], "image/vnd.ms-dds": ["dds"], "image/vnd.ms-modi": ["mdi"], "image/vnd.ms-photo": ["wdp"], "image/vnd.net-fpx": ["npx"], "image/vnd.pco.b16": ["b16"], "image/vnd.tencent.tap": ["tap"], "image/vnd.valve.source.texture": ["vtf"], "image/vnd.wap.wbmp": ["wbmp"], "image/vnd.xiff": ["xif"], "image/vnd.zbrush.pcx": ["pcx"], "image/x-3ds": ["3ds"], "image/x-cmu-raster": ["ras"], "image/x-cmx": ["cmx"], "image/x-freehand": ["fh", "fhc", "fh4", "fh5", "fh7"], "image/x-icon": ["*ico"], "image/x-jng": ["jng"], "image/x-mrsid-image": ["sid"], "image/x-ms-bmp": ["*bmp"], "image/x-pcx": ["*pcx"], "image/x-pict": ["pic", "pct"], "image/x-portable-anymap": ["pnm"], "image/x-portable-bitmap": ["pbm"], "image/x-portable-graymap": ["pgm"], "image/x-portable-pixmap": ["ppm"], "image/x-rgb": ["rgb"], "image/x-tga": ["tga"], "image/x-xbitmap": ["xbm"], "image/x-xpixmap": ["xpm"], "image/x-xwindowdump": ["xwd"], "message/vnd.wfa.wsc": ["wsc"], "model/vnd.collada+xml": ["dae"], "model/vnd.dwf": ["dwf"], "model/vnd.gdl": ["gdl"], "model/vnd.gtw": ["gtw"], "model/vnd.mts": ["mts"], "model/vnd.opengex": ["ogex"], "model/vnd.parasolid.transmit.binary": ["x_b"], "model/vnd.parasolid.transmit.text": ["x_t"], "model/vnd.sap.vds": ["vds"], "model/vnd.usdz+zip": ["usdz"], "model/vnd.valve.source.compiled-map": ["bsp"], "model/vnd.vtu": ["vtu"], "text/prs.lines.tag": ["dsc"], "text/vnd.curl": ["curl"], "text/vnd.curl.dcurl": ["dcurl"], "text/vnd.curl.mcurl": ["mcurl"], "text/vnd.curl.scurl": ["scurl"], "text/vnd.dvb.subtitle": ["sub"], "text/vnd.fly": ["fly"], "text/vnd.fmi.flexstor": ["flx"], "text/vnd.graphviz": ["gv"], "text/vnd.in3d.3dml": ["3dml"], "text/vnd.in3d.spot": ["spot"], "text/vnd.sun.j2me.app-descriptor": ["jad"], "text/vnd.wap.wml": ["wml"], "text/vnd.wap.wmlscript": ["wmls"], "text/x-asm": ["s", "asm"], "text/x-c": ["c", "cc", "cxx", "cpp", "h", "hh", "dic"], "text/x-component": ["htc"], "text/x-fortran": ["f", "for", "f77", "f90"], "text/x-handlebars-template": ["hbs"], "text/x-java-source": ["java"], "text/x-lua": ["lua"], "text/x-markdown": ["mkd"], "text/x-nfo": ["nfo"], "text/x-opml": ["opml"], "text/x-org": ["*org"], "text/x-pascal": ["p", "pas"], "text/x-processing": ["pde"], "text/x-sass": ["sass"], "text/x-scss": ["scss"], "text/x-setext": ["etx"], "text/x-sfv": ["sfv"], "text/x-suse-ymp": ["ymp"], "text/x-uuencode": ["uu"], "text/x-vcalendar": ["vcs"], "text/x-vcard": ["vcf"], "video/vnd.dece.hd": ["uvh", "uvvh"], "video/vnd.dece.mobile": ["uvm", "uvvm"], "video/vnd.dece.pd": ["uvp", "uvvp"], "video/vnd.dece.sd": ["uvs", "uvvs"], "video/vnd.dece.video": ["uvv", "uvvv"], "video/vnd.dvb.file": ["dvb"], "video/vnd.fvt": ["fvt"], "video/vnd.mpegurl": ["mxu", "m4u"], "video/vnd.ms-playready.media.pyv": ["pyv"], "video/vnd.uvvu.mp4": ["uvu", "uvvu"], "video/vnd.vivo": ["viv"], "video/x-f4v": ["f4v"], "video/x-fli": ["fli"], "video/x-flv": ["flv"], "video/x-m4v": ["m4v"], "video/x-matroska": ["mkv", "mk3d", "mks"], "video/x-mng": ["mng"], "video/x-ms-asf": ["asf", "asx"], "video/x-ms-vob": ["vob"], "video/x-ms-wm": ["wm"], "video/x-ms-wmv": ["wmv"], "video/x-ms-wmx": ["wmx"], "video/x-ms-wvx": ["wvx"], "video/x-msvideo": ["avi"], "video/x-sgi-movie": ["movie"], "video/x-smv": ["smv"], "x-conference/x-cooltalk": ["ice"] };
 var Mime = Mime_1;
 var mime = new Mime(standard, other);
-var ASTRO_VERSION = "1.2.6";
+var parse_1 = parse$1;
+var serialize_1 = serialize;
+var __toString = Object.prototype.toString;
+var fieldContentRegExp = /^[\u0009\u0020-\u007e\u0080-\u00ff]+$/;
+function parse$1(str, options) {
+  if (typeof str !== "string") {
+    throw new TypeError("argument str must be a string");
+  }
+  var obj = {};
+  var opt = options || {};
+  var dec = opt.decode || decode;
+  var index = 0;
+  while (index < str.length) {
+    var eqIdx = str.indexOf("=", index);
+    if (eqIdx === -1) {
+      break;
+    }
+    var endIdx = str.indexOf(";", index);
+    if (endIdx === -1) {
+      endIdx = str.length;
+    } else if (endIdx < eqIdx) {
+      index = str.lastIndexOf(";", eqIdx - 1) + 1;
+      continue;
+    }
+    var key = str.slice(index, eqIdx).trim();
+    if (void 0 === obj[key]) {
+      var val = str.slice(eqIdx + 1, endIdx).trim();
+      if (val.charCodeAt(0) === 34) {
+        val = val.slice(1, -1);
+      }
+      obj[key] = tryDecode(val, dec);
+    }
+    index = endIdx + 1;
+  }
+  return obj;
+}
+function serialize(name, val, options) {
+  var opt = options || {};
+  var enc = opt.encode || encode;
+  if (typeof enc !== "function") {
+    throw new TypeError("option encode is invalid");
+  }
+  if (!fieldContentRegExp.test(name)) {
+    throw new TypeError("argument name is invalid");
+  }
+  var value = enc(val);
+  if (value && !fieldContentRegExp.test(value)) {
+    throw new TypeError("argument val is invalid");
+  }
+  var str = name + "=" + value;
+  if (null != opt.maxAge) {
+    var maxAge = opt.maxAge - 0;
+    if (isNaN(maxAge) || !isFinite(maxAge)) {
+      throw new TypeError("option maxAge is invalid");
+    }
+    str += "; Max-Age=" + Math.floor(maxAge);
+  }
+  if (opt.domain) {
+    if (!fieldContentRegExp.test(opt.domain)) {
+      throw new TypeError("option domain is invalid");
+    }
+    str += "; Domain=" + opt.domain;
+  }
+  if (opt.path) {
+    if (!fieldContentRegExp.test(opt.path)) {
+      throw new TypeError("option path is invalid");
+    }
+    str += "; Path=" + opt.path;
+  }
+  if (opt.expires) {
+    var expires = opt.expires;
+    if (!isDate(expires) || isNaN(expires.valueOf())) {
+      throw new TypeError("option expires is invalid");
+    }
+    str += "; Expires=" + expires.toUTCString();
+  }
+  if (opt.httpOnly) {
+    str += "; HttpOnly";
+  }
+  if (opt.secure) {
+    str += "; Secure";
+  }
+  if (opt.priority) {
+    var priority = typeof opt.priority === "string" ? opt.priority.toLowerCase() : opt.priority;
+    switch (priority) {
+      case "low":
+        str += "; Priority=Low";
+        break;
+      case "medium":
+        str += "; Priority=Medium";
+        break;
+      case "high":
+        str += "; Priority=High";
+        break;
+      default:
+        throw new TypeError("option priority is invalid");
+    }
+  }
+  if (opt.sameSite) {
+    var sameSite = typeof opt.sameSite === "string" ? opt.sameSite.toLowerCase() : opt.sameSite;
+    switch (sameSite) {
+      case true:
+        str += "; SameSite=Strict";
+        break;
+      case "lax":
+        str += "; SameSite=Lax";
+        break;
+      case "strict":
+        str += "; SameSite=Strict";
+        break;
+      case "none":
+        str += "; SameSite=None";
+        break;
+      default:
+        throw new TypeError("option sameSite is invalid");
+    }
+  }
+  return str;
+}
+function decode(str) {
+  return str.indexOf("%") !== -1 ? decodeURIComponent(str) : str;
+}
+function encode(val) {
+  return encodeURIComponent(val);
+}
+function isDate(val) {
+  return __toString.call(val) === "[object Date]" || val instanceof Date;
+}
+function tryDecode(str, decode2) {
+  try {
+    return decode2(str);
+  } catch (e) {
+    return str;
+  }
+}
+var __accessCheck$3 = (obj, member, msg) => {
+  if (!member.has(obj))
+    throw TypeError("Cannot " + msg);
+};
+var __privateGet$3 = (obj, member, getter) => {
+  __accessCheck$3(obj, member, "read from private field");
+  return getter ? getter.call(obj) : member.get(obj);
+};
+var __privateAdd$3 = (obj, member, value) => {
+  if (member.has(obj))
+    throw TypeError("Cannot add the same private member more than once");
+  member instanceof WeakSet ? member.add(obj) : member.set(obj, value);
+};
+var __privateSet$3 = (obj, member, value, setter) => {
+  __accessCheck$3(obj, member, "write to private field");
+  setter ? setter.call(obj, value) : member.set(obj, value);
+  return value;
+};
+var __privateMethod$1 = (obj, member, method) => {
+  __accessCheck$3(obj, member, "access private method");
+  return method;
+};
+var _request;
+var _requestValues;
+var _outgoing;
+var _ensureParsed;
+var ensureParsed_fn;
+var _ensureOutgoingMap;
+var ensureOutgoingMap_fn;
+var _parse;
+var parse_fn;
+var DELETED_EXPIRATION = new Date(0);
+var DELETED_VALUE = "deleted";
+var AstroCookie = class {
+  constructor(value) {
+    this.value = value;
+  }
+  json() {
+    if (this.value === void 0) {
+      throw new Error(`Cannot convert undefined to an object.`);
+    }
+    return JSON.parse(this.value);
+  }
+  number() {
+    return Number(this.value);
+  }
+  boolean() {
+    if (this.value === "false")
+      return false;
+    if (this.value === "0")
+      return false;
+    return Boolean(this.value);
+  }
+};
+var AstroCookies = class {
+  constructor(request) {
+    __privateAdd$3(this, _ensureParsed);
+    __privateAdd$3(this, _ensureOutgoingMap);
+    __privateAdd$3(this, _parse);
+    __privateAdd$3(this, _request, void 0);
+    __privateAdd$3(this, _requestValues, void 0);
+    __privateAdd$3(this, _outgoing, void 0);
+    __privateSet$3(this, _request, request);
+    __privateSet$3(this, _requestValues, null);
+    __privateSet$3(this, _outgoing, null);
+  }
+  delete(key, options) {
+    const serializeOptions = {
+      expires: DELETED_EXPIRATION
+    };
+    if (options == null ? void 0 : options.path) {
+      serializeOptions.path = options.path;
+    }
+    __privateMethod$1(this, _ensureOutgoingMap, ensureOutgoingMap_fn).call(this).set(key, [
+      DELETED_VALUE,
+      serialize_1(key, DELETED_VALUE, serializeOptions),
+      false
+    ]);
+  }
+  get(key) {
+    if (__privateGet$3(this, _outgoing) !== null && __privateGet$3(this, _outgoing).has(key)) {
+      let [serializedValue, , isSetValue] = __privateGet$3(this, _outgoing).get(key);
+      if (isSetValue) {
+        return new AstroCookie(serializedValue);
+      } else {
+        return new AstroCookie(void 0);
+      }
+    }
+    const values = __privateMethod$1(this, _ensureParsed, ensureParsed_fn).call(this);
+    const value = values[key];
+    return new AstroCookie(value);
+  }
+  has(key) {
+    if (__privateGet$3(this, _outgoing) !== null && __privateGet$3(this, _outgoing).has(key)) {
+      let [, , isSetValue] = __privateGet$3(this, _outgoing).get(key);
+      return isSetValue;
+    }
+    const values = __privateMethod$1(this, _ensureParsed, ensureParsed_fn).call(this);
+    return !!values[key];
+  }
+  set(key, value, options) {
+    let serializedValue;
+    if (typeof value === "string") {
+      serializedValue = value;
+    } else {
+      let toStringValue = value.toString();
+      if (toStringValue === Object.prototype.toString.call(value)) {
+        serializedValue = JSON.stringify(value);
+      } else {
+        serializedValue = toStringValue;
+      }
+    }
+    const serializeOptions = {};
+    if (options) {
+      Object.assign(serializeOptions, options);
+    }
+    __privateMethod$1(this, _ensureOutgoingMap, ensureOutgoingMap_fn).call(this).set(key, [
+      serializedValue,
+      serialize_1(key, serializedValue, serializeOptions),
+      true
+    ]);
+  }
+  *headers() {
+    if (__privateGet$3(this, _outgoing) == null)
+      return;
+    for (const [, value] of __privateGet$3(this, _outgoing)) {
+      yield value[1];
+    }
+  }
+};
+_request = /* @__PURE__ */ new WeakMap();
+_requestValues = /* @__PURE__ */ new WeakMap();
+_outgoing = /* @__PURE__ */ new WeakMap();
+_ensureParsed = /* @__PURE__ */ new WeakSet();
+ensureParsed_fn = function() {
+  if (!__privateGet$3(this, _requestValues)) {
+    __privateMethod$1(this, _parse, parse_fn).call(this);
+  }
+  if (!__privateGet$3(this, _requestValues)) {
+    __privateSet$3(this, _requestValues, {});
+  }
+  return __privateGet$3(this, _requestValues);
+};
+_ensureOutgoingMap = /* @__PURE__ */ new WeakSet();
+ensureOutgoingMap_fn = function() {
+  if (!__privateGet$3(this, _outgoing)) {
+    __privateSet$3(this, _outgoing, /* @__PURE__ */ new Map());
+  }
+  return __privateGet$3(this, _outgoing);
+};
+_parse = /* @__PURE__ */ new WeakSet();
+parse_fn = function() {
+  const raw = __privateGet$3(this, _request).headers.get("cookie");
+  if (!raw) {
+    return;
+  }
+  __privateSet$3(this, _requestValues, parse_1(raw));
+};
+var astroCookiesSymbol = Symbol.for("astro.cookies");
+function attachToResponse(response, cookies) {
+  Reflect.set(response, astroCookiesSymbol, cookies);
+}
+function getFromResponse(response) {
+  let cookies = Reflect.get(response, astroCookiesSymbol);
+  if (cookies != null) {
+    return cookies;
+  } else {
+    return void 0;
+  }
+}
+function* getSetCookiesFromResponse(response) {
+  const cookies = getFromResponse(response);
+  if (!cookies) {
+    return;
+  }
+  for (const headerValue of cookies.headers()) {
+    yield headerValue;
+  }
+}
+var ASTRO_VERSION = "1.5.2";
 function createDeprecatedFetchContentFn() {
   return () => {
     throw new Error("Deprecated: Astro.fetchContent() has been replaced with Astro.glob().");
@@ -102,10 +416,15 @@ function getHandlerFromModule(mod, method) {
   }
   return void 0;
 }
-async function renderEndpoint(mod, request, params) {
+async function renderEndpoint(mod, context, ssr) {
   var _a2;
+  const { request, params } = context;
   const chosenMethod = (_a2 = request.method) == null ? void 0 : _a2.toLowerCase();
   const handler = getHandlerFromModule(mod, chosenMethod);
+  if (!ssr && ssr === false && chosenMethod && chosenMethod !== "get") {
+    console.warn(`
+${chosenMethod} requests are not available when building a static site. Update your config to output: 'server' to handle ${chosenMethod} requests.`);
+  }
   if (!handler || typeof handler !== "function") {
     let response = new Response(null, {
       status: 404,
@@ -125,10 +444,6 @@ export function get({ params, request }) {
 
 Update your code to remove this warning.`);
   }
-  const context = {
-    request,
-    params
-  };
   const proxy = new Proxy(context, {
     get(target, prop) {
       if (prop in target) {
@@ -163,6 +478,9 @@ var pe = (m) => esca[m];
 var escape = (es) => replace.call(es, ca, pe);
 var escapeHTML = escape;
 var HTMLString = class extends String {
+  get [Symbol.toStringTag]() {
+    return "HTMLString";
+  }
 };
 var markHTMLString = (value) => {
   if (value instanceof HTMLString) {
@@ -173,6 +491,358 @@ var markHTMLString = (value) => {
   }
   return value;
 };
+function isHTMLString(value) {
+  return Object.prototype.toString.call(value) === "[object HTMLString]";
+}
+var AstroJSX = "astro:jsx";
+var Empty = Symbol("empty");
+var toSlotName = (slotAttr) => slotAttr;
+function isVNode(vnode) {
+  return vnode && typeof vnode === "object" && vnode[AstroJSX];
+}
+function transformSlots(vnode) {
+  if (typeof vnode.type === "string")
+    return vnode;
+  const slots = {};
+  if (isVNode(vnode.props.children)) {
+    const child = vnode.props.children;
+    if (!isVNode(child))
+      return;
+    if (!("slot" in child.props))
+      return;
+    const name = toSlotName(child.props.slot);
+    slots[name] = [child];
+    slots[name]["$$slot"] = true;
+    delete child.props.slot;
+    delete vnode.props.children;
+  }
+  if (Array.isArray(vnode.props.children)) {
+    vnode.props.children = vnode.props.children.map((child) => {
+      if (!isVNode(child))
+        return child;
+      if (!("slot" in child.props))
+        return child;
+      const name = toSlotName(child.props.slot);
+      if (Array.isArray(slots[name])) {
+        slots[name].push(child);
+      } else {
+        slots[name] = [child];
+        slots[name]["$$slot"] = true;
+      }
+      delete child.props.slot;
+      return Empty;
+    }).filter((v) => v !== Empty);
+  }
+  Object.assign(vnode.props, slots);
+}
+function markRawChildren(child) {
+  if (typeof child === "string")
+    return markHTMLString(child);
+  if (Array.isArray(child))
+    return child.map((c) => markRawChildren(c));
+  return child;
+}
+function transformSetDirectives(vnode) {
+  if (!("set:html" in vnode.props || "set:text" in vnode.props))
+    return;
+  if ("set:html" in vnode.props) {
+    const children = markRawChildren(vnode.props["set:html"]);
+    delete vnode.props["set:html"];
+    Object.assign(vnode.props, { children });
+    return;
+  }
+  if ("set:text" in vnode.props) {
+    const children = vnode.props["set:text"];
+    delete vnode.props["set:text"];
+    Object.assign(vnode.props, { children });
+    return;
+  }
+}
+function createVNode(type, props) {
+  const vnode = {
+    [Renderer]: "astro:jsx",
+    [AstroJSX]: true,
+    type,
+    props: props ?? {}
+  };
+  transformSetDirectives(vnode);
+  transformSlots(vnode);
+  return vnode;
+}
+var idle_prebuilt_default = `(self.Astro=self.Astro||{}).idle=t=>{const e=async()=>{await(await t())()};"requestIdleCallback"in window?window.requestIdleCallback(e):setTimeout(e,200)},window.dispatchEvent(new Event("astro:idle"));`;
+var load_prebuilt_default = `(self.Astro=self.Astro||{}).load=a=>{(async()=>await(await a())())()},window.dispatchEvent(new Event("astro:load"));`;
+var media_prebuilt_default = `(self.Astro=self.Astro||{}).media=(s,a)=>{const t=async()=>{await(await s())()};if(a.value){const e=matchMedia(a.value);e.matches?t():e.addEventListener("change",t,{once:!0})}},window.dispatchEvent(new Event("astro:media"));`;
+var only_prebuilt_default = `(self.Astro=self.Astro||{}).only=t=>{(async()=>await(await t())())()},window.dispatchEvent(new Event("astro:only"));`;
+var visible_prebuilt_default = `(self.Astro=self.Astro||{}).visible=(s,c,n)=>{const r=async()=>{await(await s())()};let i=new IntersectionObserver(e=>{for(const t of e)if(!!t.isIntersecting){i.disconnect(),r();break}});for(let e=0;e<n.children.length;e++){const t=n.children[e];i.observe(t)}},window.dispatchEvent(new Event("astro:visible"));`;
+var astro_island_prebuilt_default = `var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,n]=s;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const r of n){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(const r of s){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((s,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate);let s=this.getAttribute("before-hydration-url");s&&await import(s),this.start()}start(){const s=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(\`astro:\${e}\`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:r}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(const d of i.split("."))this.Component=this.Component[d]}return this.hydrator=r,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}`;
+function determineIfNeedsHydrationScript(result) {
+  if (result._metadata.hasHydrationScript) {
+    return false;
+  }
+  return result._metadata.hasHydrationScript = true;
+}
+var hydrationScripts = {
+  idle: idle_prebuilt_default,
+  load: load_prebuilt_default,
+  only: only_prebuilt_default,
+  media: media_prebuilt_default,
+  visible: visible_prebuilt_default
+};
+function determinesIfNeedsDirectiveScript(result, directive) {
+  if (result._metadata.hasDirectives.has(directive)) {
+    return false;
+  }
+  result._metadata.hasDirectives.add(directive);
+  return true;
+}
+function getDirectiveScriptText(directive) {
+  if (!(directive in hydrationScripts)) {
+    throw new Error(`Unknown directive: ${directive}`);
+  }
+  const directiveScriptText = hydrationScripts[directive];
+  return directiveScriptText;
+}
+function getPrescripts(type, directive) {
+  switch (type) {
+    case "both":
+      return `<style>astro-island,astro-slot{display:contents}</style><script>${getDirectiveScriptText(directive) + astro_island_prebuilt_default}<\/script>`;
+    case "directive":
+      return `<script>${getDirectiveScriptText(directive)}<\/script>`;
+  }
+  return "";
+}
+var Fragment = Symbol.for("astro:fragment");
+var Renderer = Symbol.for("astro:renderer");
+var encoder = new TextEncoder();
+var decoder = new TextDecoder();
+function stringifyChunk(result, chunk) {
+  switch (chunk.type) {
+    case "directive": {
+      const { hydration } = chunk;
+      let needsHydrationScript = hydration && determineIfNeedsHydrationScript(result);
+      let needsDirectiveScript = hydration && determinesIfNeedsDirectiveScript(result, hydration.directive);
+      let prescriptType = needsHydrationScript ? "both" : needsDirectiveScript ? "directive" : null;
+      if (prescriptType) {
+        let prescripts = getPrescripts(prescriptType, hydration.directive);
+        return markHTMLString(prescripts);
+      } else {
+        return "";
+      }
+    }
+    default: {
+      return chunk.toString();
+    }
+  }
+}
+var HTMLParts = class {
+  constructor() {
+    this.parts = "";
+  }
+  append(part, result) {
+    if (ArrayBuffer.isView(part)) {
+      this.parts += decoder.decode(part);
+    } else {
+      this.parts += stringifyChunk(result, part);
+    }
+  }
+  toString() {
+    return this.parts;
+  }
+  toArrayBuffer() {
+    return encoder.encode(this.parts);
+  }
+};
+function chunkToByteArray(result, chunk) {
+  if (chunk instanceof Uint8Array) {
+    return chunk;
+  }
+  return encoder.encode(stringifyChunk(result, chunk));
+}
+var ClientOnlyPlaceholder = "astro-client-only";
+var skipAstroJSXCheck = /* @__PURE__ */ new WeakSet();
+var originalConsoleError;
+var consoleFilterRefs = 0;
+async function renderJSX(result, vnode) {
+  switch (true) {
+    case vnode instanceof HTMLString:
+      if (vnode.toString().trim() === "") {
+        return "";
+      }
+      return vnode;
+    case typeof vnode === "string":
+      return markHTMLString(escapeHTML(vnode));
+    case typeof vnode === "function":
+      return vnode;
+    case (!vnode && vnode !== 0):
+      return "";
+    case Array.isArray(vnode):
+      return markHTMLString(
+        (await Promise.all(vnode.map((v) => renderJSX(result, v)))).join("")
+      );
+  }
+  if (isVNode(vnode)) {
+    switch (true) {
+      case !vnode.type: {
+        throw new Error(`Unable to render ${result._metadata.pathname} because it contains an undefined Component!
+Did you forget to import the component or is it possible there is a typo?`);
+      }
+      case vnode.type === Symbol.for("astro:fragment"):
+        return renderJSX(result, vnode.props.children);
+      case vnode.type.isAstroComponentFactory: {
+        let props = {};
+        let slots = {};
+        for (const [key, value] of Object.entries(vnode.props ?? {})) {
+          if (key === "children" || value && typeof value === "object" && value["$$slot"]) {
+            slots[key === "children" ? "default" : key] = () => renderJSX(result, value);
+          } else {
+            props[key] = value;
+          }
+        }
+        return markHTMLString(await renderToString(result, vnode.type, props, slots));
+      }
+      case (!vnode.type && vnode.type !== 0):
+        return "";
+      case (typeof vnode.type === "string" && vnode.type !== ClientOnlyPlaceholder):
+        return markHTMLString(await renderElement$1(result, vnode.type, vnode.props ?? {}));
+    }
+    if (vnode.type) {
+      let extractSlots2 = function(child) {
+        if (Array.isArray(child)) {
+          return child.map((c) => extractSlots2(c));
+        }
+        if (!isVNode(child)) {
+          _slots2.default.push(child);
+          return;
+        }
+        if ("slot" in child.props) {
+          _slots2[child.props.slot] = [..._slots2[child.props.slot] ?? [], child];
+          delete child.props.slot;
+          return;
+        }
+        _slots2.default.push(child);
+      };
+      if (typeof vnode.type === "function" && vnode.type["astro:renderer"]) {
+        skipAstroJSXCheck.add(vnode.type);
+      }
+      if (typeof vnode.type === "function" && vnode.props["server:root"]) {
+        const output2 = await vnode.type(vnode.props ?? {});
+        return await renderJSX(result, output2);
+      }
+      if (typeof vnode.type === "function" && !skipAstroJSXCheck.has(vnode.type)) {
+        useConsoleFilter();
+        try {
+          const output2 = await vnode.type(vnode.props ?? {});
+          if (output2 && output2[AstroJSX]) {
+            return await renderJSX(result, output2);
+          } else if (!output2) {
+            return await renderJSX(result, output2);
+          }
+        } catch (e) {
+          skipAstroJSXCheck.add(vnode.type);
+        } finally {
+          finishUsingConsoleFilter();
+        }
+      }
+      const { children = null, ...props } = vnode.props ?? {};
+      const _slots2 = {
+        default: []
+      };
+      extractSlots2(children);
+      for (const [key, value] of Object.entries(props)) {
+        if (value["$$slot"]) {
+          _slots2[key] = value;
+          delete props[key];
+        }
+      }
+      const slotPromises = [];
+      const slots = {};
+      for (const [key, value] of Object.entries(_slots2)) {
+        slotPromises.push(
+          renderJSX(result, value).then((output2) => {
+            if (output2.toString().trim().length === 0)
+              return;
+            slots[key] = () => output2;
+          })
+        );
+      }
+      await Promise.all(slotPromises);
+      let output;
+      if (vnode.type === ClientOnlyPlaceholder && vnode.props["client:only"]) {
+        output = await renderComponent(
+          result,
+          vnode.props["client:display-name"] ?? "",
+          null,
+          props,
+          slots
+        );
+      } else {
+        output = await renderComponent(
+          result,
+          typeof vnode.type === "function" ? vnode.type.name : vnode.type,
+          vnode.type,
+          props,
+          slots
+        );
+      }
+      if (typeof output !== "string" && Symbol.asyncIterator in output) {
+        let parts = new HTMLParts();
+        for await (const chunk of output) {
+          parts.append(chunk, result);
+        }
+        return markHTMLString(parts.toString());
+      } else {
+        return markHTMLString(output);
+      }
+    }
+  }
+  return markHTMLString(`${vnode}`);
+}
+async function renderElement$1(result, tag, { children, ...props }) {
+  return markHTMLString(
+    `<${tag}${spreadAttributes(props)}${markHTMLString(
+      (children == null || children == "") && voidElementNames.test(tag) ? `/>` : `>${children == null ? "" : await renderJSX(result, children)}</${tag}>`
+    )}`
+  );
+}
+function useConsoleFilter() {
+  consoleFilterRefs++;
+  if (!originalConsoleError) {
+    originalConsoleError = console.error;
+    try {
+      console.error = filteredConsoleError;
+    } catch (error2) {
+    }
+  }
+}
+function finishUsingConsoleFilter() {
+  consoleFilterRefs--;
+}
+function filteredConsoleError(msg, ...rest) {
+  if (consoleFilterRefs > 0 && typeof msg === "string") {
+    const isKnownReactHookError = msg.includes("Warning: Invalid hook call.") && msg.includes("https://reactjs.org/link/invalid-hook-call");
+    if (isKnownReactHookError)
+      return;
+  }
+  originalConsoleError(msg, ...rest);
+}
+function appendForwardSlash(path) {
+  return path.endsWith("/") ? path : path + "/";
+}
+function prependForwardSlash(path) {
+  return path[0] === "/" ? path : "/" + path;
+}
+function removeLeadingForwardSlashWindows(path) {
+  return path.startsWith("/") && path[2] === ":" ? path.substring(1) : path;
+}
+function trimSlashes(path) {
+  return path.replace(/^\/|\/$/g, "");
+}
+function isString(path) {
+  return typeof path === "string" || path instanceof String;
+}
+function joinPaths(...paths) {
+  return paths.filter(isString).map(trimSlashes).join("/");
+}
 var Metadata = class {
   constructor(filePathname, opts) {
     this.modules = opts.modules;
@@ -180,18 +850,17 @@ var Metadata = class {
     this.hydratedComponents = opts.hydratedComponents;
     this.clientOnlyComponents = opts.clientOnlyComponents;
     this.hydrationDirectives = opts.hydrationDirectives;
+    this.filePath = removeLeadingForwardSlashWindows(filePathname);
     this.mockURL = new URL(filePathname, "http://example.com");
     this.metadataCache = /* @__PURE__ */ new Map();
   }
   resolvePath(specifier) {
     if (specifier.startsWith(".")) {
-      const resolved = new URL(specifier, this.mockURL).pathname;
-      if (resolved.startsWith("/@fs") && resolved.endsWith(".jsx")) {
-        return resolved.slice(0, resolved.length - 4);
-      }
-      return resolved;
+      const url = new URL(specifier, this.mockURL);
+      return removeLeadingForwardSlashWindows(decodeURI(url.pathname));
+    } else {
+      return specifier;
     }
-    return specifier;
   }
   getPath(Component) {
     const metadata = this.getComponentMetadata(Component);
@@ -243,7 +912,10 @@ var PROP_TYPE = {
   Map: 4,
   Set: 5,
   BigInt: 6,
-  URL: 7
+  URL: 7,
+  Uint8Array: 8,
+  Uint16Array: 9,
+  Uint32Array: 10
 };
 function serializeArray(value, metadata = {}, parents = /* @__PURE__ */ new WeakSet()) {
   if (parents.has(value)) {
@@ -302,6 +974,15 @@ function convertToSerializedForm(value, metadata = {}, parents = /* @__PURE__ */
     }
     case "[object Array]": {
       return [PROP_TYPE.JSON, JSON.stringify(serializeArray(value, metadata, parents))];
+    }
+    case "[object Uint8Array]": {
+      return [PROP_TYPE.Uint8Array, JSON.stringify(Array.from(value))];
+    }
+    case "[object Uint16Array]": {
+      return [PROP_TYPE.Uint16Array, JSON.stringify(Array.from(value))];
+    }
+    case "[object Uint32Array]": {
+      return [PROP_TYPE.Uint32Array, JSON.stringify(Array.from(value))];
     }
     default: {
       if (value !== null && typeof value === "object") {
@@ -396,7 +1077,9 @@ function extractDirectives(inputProps) {
         }
       }
     } else if (key === "class:list") {
-      extracted.props[key.slice(0, -5)] = serializeListValue(value);
+      if (value) {
+        extracted.props[key.slice(0, -5)] = serializeListValue(value);
+      }
     } else {
       extracted.props[key] = value;
     }
@@ -419,7 +1102,7 @@ async function generateHydrateScript(scriptOptions, metadata) {
   };
   if (attrs) {
     for (const [key, value] of Object.entries(attrs)) {
-      island.props[key] = value;
+      island.props[key] = escapeHTML(value);
     }
   }
   island.props["component-url"] = await result.resolve(decodeURI(componentUrl));
@@ -442,67 +1125,78 @@ async function generateHydrateScript(scriptOptions, metadata) {
   );
   return island;
 }
-var idle_prebuilt_default = `(self.Astro=self.Astro||{}).idle=t=>{const e=async()=>{await(await t())()};"requestIdleCallback"in window?window.requestIdleCallback(e):setTimeout(e,200)},window.dispatchEvent(new Event("astro:idle"));`;
-var load_prebuilt_default = `(self.Astro=self.Astro||{}).load=a=>{(async()=>await(await a())())()},window.dispatchEvent(new Event("astro:load"));`;
-var media_prebuilt_default = `(self.Astro=self.Astro||{}).media=(s,a)=>{const t=async()=>{await(await s())()};if(a.value){const e=matchMedia(a.value);e.matches?t():e.addEventListener("change",t,{once:!0})}},window.dispatchEvent(new Event("astro:media"));`;
-var only_prebuilt_default = `(self.Astro=self.Astro||{}).only=t=>{(async()=>await(await t())())()},window.dispatchEvent(new Event("astro:only"));`;
-var visible_prebuilt_default = `(self.Astro=self.Astro||{}).visible=(s,c,n)=>{const r=async()=>{await(await s())()};let i=new IntersectionObserver(e=>{for(const t of e)if(!!t.isIntersecting){i.disconnect(),r();break}});for(let e=0;e<n.children.length;e++){const t=n.children[e];i.observe(t)}},window.dispatchEvent(new Event("astro:visible"));`;
-var astro_island_prebuilt_default = `var l;{const c={0:t=>t,1:t=>JSON.parse(t,o),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,o)),5:t=>new Set(JSON.parse(t,o)),6:t=>BigInt(t),7:t=>new URL(t)},o=(t,s)=>{if(t===""||!Array.isArray(s))return s;const[e,n]=s;return e in c?c[e](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(l=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement&&this.parentElement.closest("astro-island[ssr]"))return;const s=this.querySelectorAll("astro-slot"),e={},n=this.querySelectorAll("template[data-astro-template]");for(const r of n){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(const r of s){const i=r.closest(this.tagName);!i||!i.isSameNode(this)||(e[r.getAttribute("name")||"default"]=r.innerHTML)}const a=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),o):{};this.hydrator(this)(this.Component,a,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((s,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate);let s=this.getAttribute("before-hydration-url");s&&await import(s),this.start()}start(){const s=JSON.parse(this.getAttribute("opts")),e=this.getAttribute("client");if(Astro[e]===void 0){window.addEventListener(\`astro:\${e}\`,()=>this.start(),{once:!0});return}Astro[e](async()=>{const n=this.getAttribute("renderer-url"),[a,{default:r}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),i=this.getAttribute("component-export")||"default";if(!i.includes("."))this.Component=a[i];else{this.Component=a;for(const d of i.split("."))this.Component=this.Component[d]}return this.hydrator=r,this.hydrate},s,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},l.observedAttributes=["props"],l))}`;
-function determineIfNeedsHydrationScript(result) {
-  if (result._metadata.hasHydrationScript) {
-    return false;
+var SlotString = class extends HTMLString {
+  constructor(content, instructions) {
+    super(content);
+    this.instructions = instructions;
   }
-  return result._metadata.hasHydrationScript = true;
-}
-var hydrationScripts = {
-  idle: idle_prebuilt_default,
-  load: load_prebuilt_default,
-  only: only_prebuilt_default,
-  media: media_prebuilt_default,
-  visible: visible_prebuilt_default
 };
-function determinesIfNeedsDirectiveScript(result, directive) {
-  if (result._metadata.hasDirectives.has(directive)) {
-    return false;
-  }
-  result._metadata.hasDirectives.add(directive);
-  return true;
-}
-function getDirectiveScriptText(directive) {
-  if (!(directive in hydrationScripts)) {
-    throw new Error(`Unknown directive: ${directive}`);
-  }
-  const directiveScriptText = hydrationScripts[directive];
-  return directiveScriptText;
-}
-function getPrescripts(type, directive) {
-  switch (type) {
-    case "both":
-      return `<style>astro-island,astro-slot{display:contents}</style><script>${getDirectiveScriptText(directive) + astro_island_prebuilt_default}<\/script>`;
-    case "directive":
-      return `<script>${getDirectiveScriptText(directive)}<\/script>`;
-  }
-  return "";
-}
-var Fragment = Symbol.for("astro:fragment");
-var Renderer = Symbol.for("astro:renderer");
-function stringifyChunk(result, chunk) {
-  switch (chunk.type) {
-    case "directive": {
-      const { hydration } = chunk;
-      let needsHydrationScript = hydration && determineIfNeedsHydrationScript(result);
-      let needsDirectiveScript = hydration && determinesIfNeedsDirectiveScript(result, hydration.directive);
-      let prescriptType = needsHydrationScript ? "both" : needsDirectiveScript ? "directive" : null;
-      if (prescriptType) {
-        let prescripts = getPrescripts(prescriptType, hydration.directive);
-        return markHTMLString(prescripts);
+async function renderSlot(_result2, slotted, fallback) {
+  if (slotted) {
+    let iterator = renderChild(slotted);
+    let content = "";
+    let instructions = null;
+    for await (const chunk of iterator) {
+      if (chunk.type === "directive") {
+        if (instructions === null) {
+          instructions = [];
+        }
+        instructions.push(chunk);
       } else {
-        return "";
+        content += chunk;
       }
     }
-    default: {
-      return chunk.toString();
+    return markHTMLString(new SlotString(content, instructions));
+  }
+  return fallback;
+}
+async function renderSlots(result, slots = {}) {
+  let slotInstructions = null;
+  let children = {};
+  if (slots) {
+    await Promise.all(
+      Object.entries(slots).map(
+        ([key, value]) => renderSlot(result, value).then((output) => {
+          if (output.instructions) {
+            if (slotInstructions === null) {
+              slotInstructions = [];
+            }
+            slotInstructions.push(...output.instructions);
+          }
+          children[key] = output;
+        })
+      )
+    );
+  }
+  return { slotInstructions, children };
+}
+async function* renderChild(child) {
+  child = await child;
+  if (child instanceof SlotString) {
+    if (child.instructions) {
+      yield* child.instructions;
     }
+    yield child;
+  } else if (isHTMLString(child)) {
+    yield child;
+  } else if (Array.isArray(child)) {
+    for (const value of child) {
+      yield markHTMLString(await renderChild(value));
+    }
+  } else if (typeof child === "function") {
+    yield* renderChild(child());
+  } else if (typeof child === "string") {
+    yield markHTMLString(escapeHTML(child));
+  } else if (!child && child !== 0)
+    ;
+  else if (child instanceof AstroComponent || Object.prototype.toString.call(child) === "[object AstroComponent]") {
+    yield* renderAstroComponent(child);
+  } else if (ArrayBuffer.isView(child)) {
+    yield child;
+  } else if (typeof child === "object" && (Symbol.asyncIterator in child || Symbol.iterator in child)) {
+    yield* child;
+  } else {
+    yield child;
   }
 }
 function validateComponentProps(props, displayName) {
@@ -565,11 +1259,11 @@ async function renderToString(result, componentFactory, props, children) {
     const response = Component;
     throw response;
   }
-  let html = "";
+  let parts = new HTMLParts();
   for await (const chunk of renderAstroComponent(Component)) {
-    html += stringifyChunk(result, chunk);
+    parts.append(chunk, result);
   }
-  return html;
+  return parts.toString();
 }
 async function renderToIterable(result, componentFactory, displayName, props, children) {
   validateComponentProps(props, displayName);
@@ -585,43 +1279,6 @@ async function renderToIterable(result, componentFactory, displayName, props, ch
 }
 async function renderTemplate(htmlParts, ...expressions) {
   return new AstroComponent(htmlParts, expressions);
-}
-async function* renderChild(child) {
-  child = await child;
-  if (child instanceof HTMLString) {
-    yield child;
-  } else if (Array.isArray(child)) {
-    for (const value of child) {
-      yield markHTMLString(await renderChild(value));
-    }
-  } else if (typeof child === "function") {
-    yield* renderChild(child());
-  } else if (typeof child === "string") {
-    yield markHTMLString(escapeHTML(child));
-  } else if (!child && child !== 0)
-    ;
-  else if (child instanceof AstroComponent || Object.prototype.toString.call(child) === "[object AstroComponent]") {
-    yield* renderAstroComponent(child);
-  } else if (typeof child === "object" && Symbol.asyncIterator in child) {
-    yield* child;
-  } else {
-    yield child;
-  }
-}
-async function renderSlot(result, slotted, fallback) {
-  if (slotted) {
-    let iterator = renderChild(slotted);
-    let content = "";
-    for await (const chunk of iterator) {
-      if (chunk.type === "directive") {
-        content += stringifyChunk(result, chunk);
-      } else {
-        content += chunk;
-      }
-    }
-    return markHTMLString(content);
-  }
-  return fallback;
 }
 var dictionary = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXY";
 var binary = dictionary.length;
@@ -657,7 +1314,7 @@ var htmlBooleanAttributes = /^(allowfullscreen|async|autofocus|autoplay|controls
 var htmlEnumAttributes = /^(contenteditable|draggable|spellcheck|value)$/i;
 var svgEnumAttributes = /^(autoReverse|externalResourcesRequired|focusable|preserveAlpha)$/i;
 var STATIC_DIRECTIVES = /* @__PURE__ */ new Set(["set:html", "set:text"]);
-var toIdent = (k) => k.trim().replace(/(?:(?<!^)\b\w|\s+|[^\w]+)/g, (match, index) => {
+var toIdent = (k) => k.trim().replace(/(?:(?!^)\b\w|\s+|[^\w]+)/g, (match, index) => {
   if (/[^\w]|\s/.test(match))
     return "";
   return index === 0 ? match : match.toUpperCase();
@@ -668,7 +1325,7 @@ var toStyleString = (obj) => Object.entries(obj).map(([k, v]) => `${kebab(k)}:${
 function defineScriptVars(vars) {
   let output = "";
   for (const [key, value] of Object.entries(vars)) {
-    output += `let ${toIdent(key)} = ${JSON.stringify(value)};
+    output += `const ${toIdent(key)} = ${JSON.stringify(value)};
 `;
   }
   return markHTMLString(output);
@@ -696,14 +1353,14 @@ Make sure to use the static attribute syntax (\`${key}={value}\`) instead of the
     return "";
   }
   if (key === "class:list") {
-    const listValue = toAttributeString(serializeListValue(value));
+    const listValue = toAttributeString(serializeListValue(value), shouldEscape);
     if (listValue === "") {
       return "";
     }
     return markHTMLString(` ${key.slice(0, -5)}="${listValue}"`);
   }
   if (key === "style" && !(value instanceof HTMLString) && typeof value === "object") {
-    return markHTMLString(` ${key}="${toStyleString(value)}"`);
+    return markHTMLString(` ${key}="${toAttributeString(toStyleString(value), shouldEscape)}"`);
   }
   if (key === "className") {
     return markHTMLString(` class="${toAttributeString(value, shouldEscape)}"`);
@@ -721,7 +1378,7 @@ function internalSpreadAttributes(values, shouldEscape = true) {
   }
   return markHTMLString(output);
 }
-function renderElement$1(name, { props: _props, children = "" }, shouldEscape = true) {
+function renderElement(name, { props: _props, children = "" }, shouldEscape = true) {
   const { lang: _, "data-astro-id": astroId, "define:vars": defineVars, ...props } = _props;
   if (defineVars) {
     if (name === "style") {
@@ -768,7 +1425,7 @@ function guessRenderers(componentUrl) {
       return ["@astrojs/vue"];
     case "jsx":
     case "tsx":
-      return ["@astrojs/react", "@astrojs/preact"];
+      return ["@astrojs/react", "@astrojs/preact", "@astrojs/vue (jsx)"];
     default:
       return ["@astrojs/react", "@astrojs/preact", "@astrojs/vue", "@astrojs/svelte"];
   }
@@ -797,18 +1454,10 @@ async function renderComponent(result, displayName, Component, _props, slots = {
       return markHTMLString(children2);
     }
     case "html": {
-      const children2 = {};
-      if (slots) {
-        await Promise.all(
-          Object.entries(slots).map(
-            ([key, value]) => renderSlot(result, value).then((output) => {
-              children2[key] = output;
-            })
-          )
-        );
-      }
+      const { slotInstructions: slotInstructions2, children: children2 } = await renderSlots(result, slots);
       const html2 = Component.render({ slots: children2 });
-      return markHTMLString(html2);
+      const hydrationHtml = slotInstructions2 ? slotInstructions2.map((instr) => stringifyChunk(result, instr)).join("") : "";
+      return markHTMLString(hydrationHtml + html2);
     }
     case "astro-factory": {
       async function* renderAstroComponentInline() {
@@ -843,16 +1492,7 @@ There are no \`integrations\` set in your \`astro.config.mjs\` file.
 Did you mean to add ${formatList(probableRendererNames.map((r) => "`" + r + "`"))}?`;
     throw new Error(message);
   }
-  const children = {};
-  if (slots) {
-    await Promise.all(
-      Object.entries(slots).map(
-        ([key, value]) => renderSlot(result, value).then((output) => {
-          children[key] = output;
-        })
-      )
-    );
-  }
+  const { children, slotInstructions } = await renderSlots(result, slots);
   let renderer;
   if (metadata.hydrate !== "only") {
     if (Component && Component[Renderer]) {
@@ -968,10 +1608,16 @@ If you're still stuck, please open an issue on GitHub or join us at https://astr
     }
   }
   if (!hydration) {
-    if (isPage || (renderer == null ? void 0 : renderer.name) === "astro:jsx") {
-      return html;
-    }
-    return markHTMLString(html.replace(/\<\/?astro-slot\>/g, ""));
+    return async function* () {
+      if (slotInstructions) {
+        yield* slotInstructions;
+      }
+      if (isPage || (renderer == null ? void 0 : renderer.name) === "astro:jsx") {
+        yield html;
+      } else {
+        yield markHTMLString(html.replace(/\<\/?astro-slot\>/g, ""));
+      }
+    }();
   }
   const astroId = shorthash(
     `<!--${metadata.componentExport.value}:${metadata.componentUrl}-->
@@ -1005,8 +1651,11 @@ ${serializeProps(
     island.props["await-children"] = "";
   }
   async function* renderAll() {
+    if (slotInstructions) {
+      yield* slotInstructions;
+    }
     yield { type: "directive", hydration, result };
-    yield markHTMLString(renderElement$1("astro-island", island, false));
+    yield markHTMLString(renderElement("astro-island", island, false));
   }
   return renderAll();
 }
@@ -1015,19 +1664,18 @@ var uniqueElements = (item, index, all) => {
   const children = item.children;
   return index === all.findIndex((i) => JSON.stringify(i.props) === props && i.children == children);
 };
-var alreadyHeadRenderedResults = /* @__PURE__ */ new WeakSet();
 function renderHead(result) {
-  alreadyHeadRenderedResults.add(result);
-  const styles = Array.from(result.styles).filter(uniqueElements).map((style) => renderElement$1("style", style));
+  result._metadata.hasRenderedHead = true;
+  const styles = Array.from(result.styles).filter(uniqueElements).map((style) => renderElement("style", style));
   result.styles.clear();
   const scripts = Array.from(result.scripts).filter(uniqueElements).map((script, i) => {
-    return renderElement$1("script", script, false);
+    return renderElement("script", script, false);
   });
-  const links = Array.from(result.links).filter(uniqueElements).map((link) => renderElement$1("link", link, false));
+  const links = Array.from(result.links).filter(uniqueElements).map((link) => renderElement("link", link, false));
   return markHTMLString(links.join("\n") + styles.join("\n") + scripts.join("\n"));
 }
 async function* maybeRenderHead(result) {
-  if (alreadyHeadRenderedResults.has(result)) {
+  if (result._metadata.hasRenderedHead) {
     return;
   }
   yield renderHead(result);
@@ -1068,11 +1716,11 @@ function createResponseClass() {
     }
     async text() {
       if (__privateGet$2(this, _isStream) && isNodeJS) {
-        let decoder = new TextDecoder();
+        let decoder2 = new TextDecoder();
         let body = __privateGet$2(this, _body);
         let out = "";
         for await (let chunk of body) {
-          out += decoder.decode(chunk);
+          out += decoder2.decode(chunk);
         }
         return out;
       }
@@ -1101,7 +1749,7 @@ function createResponseClass() {
   return StreamingCompatibleResponse;
 }
 var createResponse = isNodeJS ? (body, init2) => {
-  if (typeof body === "string") {
+  if (typeof body === "string" || ArrayBuffer.isView(body)) {
     return new Response(body, init2);
   }
   if (typeof StreamingCompatibleResponse === "undefined") {
@@ -1109,12 +1757,30 @@ var createResponse = isNodeJS ? (body, init2) => {
   }
   return new StreamingCompatibleResponse(body, init2);
 } : (body, init2) => new Response(body, init2);
-var encoder = new TextEncoder();
 var needsHeadRenderingSymbol = Symbol.for("astro.needsHeadRendering");
 function nonAstroPageNeedsHeadInjection(pageComponent) {
   return needsHeadRenderingSymbol in pageComponent && !!pageComponent[needsHeadRenderingSymbol];
 }
-async function renderPage(result, componentFactory, props, children, streaming) {
+async function iterableToHTMLBytes(result, iterable, onDocTypeInjection) {
+  const parts = new HTMLParts();
+  let i = 0;
+  for await (const chunk of iterable) {
+    if (isHTMLString(chunk)) {
+      if (i === 0) {
+        i++;
+        if (!/<!doctype html/i.test(String(chunk))) {
+          parts.append("<!DOCTYPE html>\n", result);
+          if (onDocTypeInjection) {
+            await onDocTypeInjection(parts);
+          }
+        }
+      }
+    }
+    parts.append(chunk, result);
+  }
+  return parts.toArrayBuffer();
+}
+async function renderPage$1(result, componentFactory, props, children, streaming) {
   if (!isAstroComponentFactory(componentFactory)) {
     const pageProps = { ...props ?? {}, "server:root": true };
     const output = await renderComponent(
@@ -1124,18 +1790,13 @@ async function renderPage(result, componentFactory, props, children, streaming) 
       pageProps,
       null
     );
-    let html = output.toString();
-    if (!/<!doctype html/i.test(html)) {
-      let rest = html;
-      html = `<!DOCTYPE html>`;
+    const bytes = await iterableToHTMLBytes(result, output, async (parts) => {
       if (nonAstroPageNeedsHeadInjection(componentFactory)) {
         for await (let chunk of maybeRenderHead(result)) {
-          html += chunk;
+          parts.append(chunk, result);
         }
       }
-      html += rest;
-    }
-    const bytes = encoder.encode(html);
+    });
     return new Response(bytes, {
       headers: new Headers([
         ["Content-Type", "text/html; charset=utf-8"],
@@ -1156,13 +1817,15 @@ async function renderPage(result, componentFactory, props, children, streaming) 
             let i = 0;
             try {
               for await (const chunk of iterable) {
-                let html = stringifyChunk(result, chunk);
-                if (i === 0) {
-                  if (!/<!doctype html/i.test(html)) {
-                    controller.enqueue(encoder.encode("<!DOCTYPE html>\n"));
+                if (isHTMLString(chunk)) {
+                  if (i === 0) {
+                    if (!/<!doctype html/i.test(String(chunk))) {
+                      controller.enqueue(encoder.encode("<!DOCTYPE html>\n"));
+                    }
                   }
                 }
-                controller.enqueue(encoder.encode(String(html)));
+                const bytes = chunkToByteArray(result, chunk);
+                controller.enqueue(bytes);
                 i++;
               }
               controller.close();
@@ -1174,26 +1837,16 @@ async function renderPage(result, componentFactory, props, children, streaming) 
         }
       });
     } else {
-      body = "";
-      let i = 0;
-      for await (const chunk of iterable) {
-        let html = stringifyChunk(result, chunk);
-        if (i === 0) {
-          if (!/<!doctype html/i.test(html)) {
-            body += "<!DOCTYPE html>\n";
-          }
-        }
-        body += html;
-        i++;
-      }
-      const bytes = encoder.encode(body);
-      headers.set("Content-Length", bytes.byteLength.toString());
+      body = await iterableToHTMLBytes(result, iterable);
+      headers.set("Content-Length", body.byteLength.toString());
     }
     let response = createResponse(body, { ...init2, headers });
     return response;
-  } else {
-    return factoryReturnValue;
   }
+  if (!(factoryReturnValue instanceof Response)) {
+    throw new Error("Only instance of Response can be returned from an Astro file");
+  }
+  return factoryReturnValue;
 }
 function createComponent(cb) {
   cb.isAstroComponentFactory = true;
@@ -1449,7 +2102,7 @@ function stringifyParams(params) {
   const validatedParams = Object.entries(params).reduce((acc, next) => {
     validateGetStaticPathsParameter(next);
     const [key, value] = next;
-    acc[key] = `${value}`;
+    acc[key] = typeof value === "undefined" ? void 0 : `${value}`;
     return acc;
   }, {});
   return JSON.stringify(validatedParams, Object.keys(params).sort());
@@ -1495,7 +2148,7 @@ var _cache;
 var _result;
 var _slots;
 var _loggingOpts;
-var clientAddressSymbol = Symbol.for("astro.clientAddress");
+var clientAddressSymbol$1 = Symbol.for("astro.clientAddress");
 function onlyAvailableInSSR(name) {
   return function _onlyAvailableInSSR() {
     throw new Error(`Oops, you are trying to use ${name}, which is only available with SSR.`);
@@ -1552,7 +2205,6 @@ Please update the name of this slot.`
       return void 0;
     if (!cacheable) {
       const component = await __privateGet$1(this, _slots)[name]();
-      const expression = getFunctionExpression(component);
       if (!Array.isArray(args)) {
         warn(
           __privateGet$1(this, _loggingOpts),
@@ -1560,9 +2212,15 @@ Please update the name of this slot.`
           `Expected second parameter to be an array, received a ${typeof args}. If you're trying to pass an array as a single argument and getting unexpected results, make sure you're passing your array as a item of an array. Ex: Astro.slots.render('default', [["Hello", "World"]])`
         );
       } else {
+        const expression = getFunctionExpression(component);
         if (expression) {
           const slot = expression(...args);
           return await renderSlot(__privateGet$1(this, _result), slot).then(
+            (res) => res != null ? String(res) : res
+          );
+        }
+        if (typeof component === "function") {
+          return await renderJSX(__privateGet$1(this, _result), component(...args)).then(
             (res) => res != null ? String(res) : res
           );
         }
@@ -1582,15 +2240,10 @@ _slots = /* @__PURE__ */ new WeakMap();
 _loggingOpts = /* @__PURE__ */ new WeakMap();
 var renderMarkdown = null;
 function createResult(args) {
-  const { markdown, params, pathname, props: pageProps, renderers: renderers2, request, resolve: resolve2 } = args;
+  const { markdown, params, pathname, renderers: renderers2, request, resolve: resolve2 } = args;
   const url = new URL(request.url);
   const headers = new Headers();
-  if (args.streaming) {
-    headers.set("Transfer-Encoding", "chunked");
-    headers.set("Content-Type", "text/html");
-  } else {
-    headers.set("Content-Type", "text/html");
-  }
+  headers.set("Content-Type", "text/html");
   const response = {
     status: args.status,
     statusText: "OK",
@@ -1601,16 +2254,18 @@ function createResult(args) {
     enumerable: true,
     writable: false
   });
+  let cookies = void 0;
   const result = {
     styles: args.styles ?? /* @__PURE__ */ new Set(),
     scripts: args.scripts ?? /* @__PURE__ */ new Set(),
     links: args.links ?? /* @__PURE__ */ new Set(),
+    cookies,
     createAstro(astroGlobal, props, slots) {
       const astroSlots = new Slots(result, slots, args.logging);
       const Astro = {
         __proto__: astroGlobal,
         get clientAddress() {
-          if (!(clientAddressSymbol in request)) {
+          if (!(clientAddressSymbol$1 in request)) {
             if (args.adapterName) {
               throw new Error(
                 `Astro.clientAddress is not available in the ${args.adapterName} adapter. File an issue with the adapter to add support.`
@@ -1621,15 +2276,23 @@ function createResult(args) {
               );
             }
           }
-          return Reflect.get(request, clientAddressSymbol);
+          return Reflect.get(request, clientAddressSymbol$1);
+        },
+        get cookies() {
+          if (cookies) {
+            return cookies;
+          }
+          cookies = new AstroCookies(request);
+          result.cookies = cookies;
+          return cookies;
         },
         params,
         props,
         request,
         url,
-        redirect: args.ssr ? (path) => {
+        redirect: args.ssr ? (path, status) => {
           return new Response(null, {
-            status: 302,
+            status: status || 302,
             headers: {
               Location: path
             }
@@ -1707,6 +2370,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       renderers: renderers2,
       pathname,
       hasHydrationScript: false,
+      hasRenderedHead: false,
       hasDirectives: /* @__PURE__ */ new Set()
     },
     response
@@ -1804,15 +2468,16 @@ async function callGetStaticPaths({
   };
 }
 var RouteCache = class {
-  constructor(logging) {
+  constructor(logging, mode = "production") {
     this.cache = {};
     this.logging = logging;
+    this.mode = mode;
   }
   clearAll() {
     this.cache = {};
   }
   set(route, entry) {
-    if (this.cache[route.component]) {
+    if (this.mode === "production" && this.cache[route.component]) {
       warn(
         this.logging,
         "routeCache",
@@ -1827,14 +2492,11 @@ var RouteCache = class {
 };
 function findPathItemByKey(staticPaths, params) {
   const paramsKey = stringifyParams(params);
-  let matchedStaticPath = staticPaths.keyed.get(paramsKey);
+  const matchedStaticPath = staticPaths.keyed.get(paramsKey);
   if (matchedStaticPath) {
     return matchedStaticPath;
   }
   debug("findPathItemByKey", `Unexpected cache miss looking for ${paramsKey}`);
-  matchedStaticPath = staticPaths.find(
-    ({ params: _params }) => JSON.stringify(_params) === paramsKey
-  );
 }
 var GetParamsAndPropsError = /* @__PURE__ */ ((GetParamsAndPropsError2) => {
   GetParamsAndPropsError2[GetParamsAndPropsError2["NoMatchingStaticPath"] = 0] = "NoMatchingStaticPath";
@@ -1866,64 +2528,42 @@ async function getParamsAndProps(opts) {
   }
   return [params, pageProps];
 }
-async function render(opts) {
-  const {
-    adapterName,
-    links,
-    styles,
-    logging,
-    origin,
-    markdown,
-    mod,
-    mode,
-    pathname,
-    scripts,
-    renderers: renderers2,
-    request,
-    resolve: resolve2,
-    route,
-    routeCache,
-    site,
-    ssr,
-    streaming,
-    status = 200
-  } = opts;
+async function renderPage(mod, ctx, env) {
   const paramsAndPropsRes = await getParamsAndProps({
-    logging,
+    logging: env.logging,
     mod,
-    route,
-    routeCache,
-    pathname,
-    ssr
+    route: ctx.route,
+    routeCache: env.routeCache,
+    pathname: ctx.pathname,
+    ssr: env.ssr
   });
   if (paramsAndPropsRes === 0) {
     throw new Error(
-      `[getStaticPath] route pattern matched, but no matching static path found. (${pathname})`
+      `[getStaticPath] route pattern matched, but no matching static path found. (${ctx.pathname})`
     );
   }
   const [params, pageProps] = paramsAndPropsRes;
-  const Component = await mod.default;
+  const Component = mod.default;
   if (!Component)
     throw new Error(`Expected an exported Astro component but received typeof ${typeof Component}`);
   const result = createResult({
-    adapterName,
-    links,
-    styles,
-    logging,
-    markdown,
-    mode,
-    origin,
+    adapterName: env.adapterName,
+    links: ctx.links,
+    styles: ctx.styles,
+    logging: env.logging,
+    markdown: env.markdown,
+    mode: env.mode,
+    origin: ctx.origin,
     params,
     props: pageProps,
-    pathname,
-    resolve: resolve2,
-    renderers: renderers2,
-    request,
-    site,
-    scripts,
-    ssr,
-    streaming,
-    status
+    pathname: ctx.pathname,
+    resolve: env.resolve,
+    renderers: env.renderers,
+    request: ctx.request,
+    site: env.site,
+    scripts: ctx.scripts,
+    ssr: env.ssr,
+    status: ctx.status ?? 200
   });
   if (typeof mod.components === "object") {
     Object.assign(pageProps, { components: mod.components });
@@ -1933,18 +2573,77 @@ async function render(opts) {
       components: Object.assign((pageProps == null ? void 0 : pageProps.components) ?? {}, { Fragment })
     });
   }
-  return await renderPage(result, Component, pageProps, null, streaming);
+  const response = await renderPage$1(result, Component, pageProps, null, env.streaming);
+  if (result.cookies) {
+    attachToResponse(response, result.cookies);
+  }
+  return response;
 }
-async function call(mod, opts) {
-  const paramsAndPropsResp = await getParamsAndProps({ ...opts, mod });
+var clientAddressSymbol = Symbol.for("astro.clientAddress");
+function createAPIContext({
+  request,
+  params,
+  site,
+  props,
+  adapterName
+}) {
+  return {
+    cookies: new AstroCookies(request),
+    request,
+    params,
+    site: site ? new URL(site) : void 0,
+    generator: `Astro v${ASTRO_VERSION}`,
+    props,
+    redirect(path, status) {
+      return new Response(null, {
+        status: status || 302,
+        headers: {
+          Location: path
+        }
+      });
+    },
+    url: new URL(request.url),
+    get clientAddress() {
+      if (!(clientAddressSymbol in request)) {
+        if (adapterName) {
+          throw new Error(
+            `clientAddress is not available in the ${adapterName} adapter. File an issue with the adapter to add support.`
+          );
+        } else {
+          throw new Error(
+            `clientAddress is not available in your environment. Ensure that you are using an SSR adapter that supports this feature.`
+          );
+        }
+      }
+      return Reflect.get(request, clientAddressSymbol);
+    }
+  };
+}
+async function call(mod, env, ctx) {
+  const paramsAndPropsResp = await getParamsAndProps({
+    mod,
+    route: ctx.route,
+    routeCache: env.routeCache,
+    pathname: ctx.pathname,
+    logging: env.logging,
+    ssr: env.ssr
+  });
   if (paramsAndPropsResp === GetParamsAndPropsError.NoMatchingStaticPath) {
     throw new Error(
-      `[getStaticPath] route pattern matched, but no matching static path found. (${opts.pathname})`
+      `[getStaticPath] route pattern matched, but no matching static path found. (${ctx.pathname})`
     );
   }
-  const [params] = paramsAndPropsResp;
-  const response = await renderEndpoint(mod, opts.request, params);
+  const [params, props] = paramsAndPropsResp;
+  const context = createAPIContext({
+    request: ctx.request,
+    params,
+    props,
+    site: env.site,
+    adapterName: env.adapterName
+  });
+  const response = await renderEndpoint(mod, context, env.ssr);
   if (response instanceof Response) {
+    attachToResponse(response, context.cookies);
     return {
       type: "response",
       response
@@ -1953,7 +2652,8 @@ async function call(mod, opts) {
   return {
     type: "simple",
     body: response.body,
-    encoding: response.encoding
+    encoding: response.encoding,
+    cookies: context.cookies
   };
 }
 var lastMessage;
@@ -1993,20 +2693,20 @@ var consoleLogDestination = {
     return true;
   }
 };
-function appendForwardSlash(path) {
-  return path.endsWith("/") ? path : path + "/";
+function createRenderContext(options) {
+  const request = options.request;
+  const url = new URL(request.url);
+  const origin = options.origin ?? url.origin;
+  const pathname = options.pathname ?? url.pathname;
+  return {
+    ...options,
+    origin,
+    pathname,
+    url
+  };
 }
-function prependForwardSlash(path) {
-  return path[0] === "/" ? path : "/" + path;
-}
-function trimSlashes(path) {
-  return path.replace(/^\/|\/$/g, "");
-}
-function isString(path) {
-  return typeof path === "string" || path instanceof String;
-}
-function joinPaths(...paths) {
-  return paths.filter(isString).map(trimSlashes).join("/");
+function createEnvironment(options) {
+  return options;
 }
 function assertPath(path) {
   if (typeof path !== "string") {
@@ -2634,7 +3334,7 @@ function tokensToFunction(tokens, options) {
     options = {};
   }
   var reFlags = flags(options);
-  var _a2 = options.encode, encode = _a2 === void 0 ? function(x) {
+  var _a2 = options.encode, encode2 = _a2 === void 0 ? function(x) {
     return x;
   } : _a2, _b = options.validate, validate = _b === void 0 ? true : _b;
   var matches = tokens.map(function(token) {
@@ -2663,7 +3363,7 @@ function tokensToFunction(tokens, options) {
           throw new TypeError('Expected "'.concat(token.name, '" to not be empty'));
         }
         for (var j = 0; j < value.length; j++) {
-          var segment = encode(value[j], token);
+          var segment = encode2(value[j], token);
           if (validate && !matches[i].test(segment)) {
             throw new TypeError('Expected all "'.concat(token.name, '" to match "').concat(token.pattern, '", but got "').concat(segment, '"'));
           }
@@ -2672,7 +3372,7 @@ function tokensToFunction(tokens, options) {
         continue;
       }
       if (typeof value === "string" || typeof value === "number") {
-        var segment = encode(String(value), token);
+        var segment = encode2(String(value), token);
         if (validate && !matches[i].test(segment)) {
           throw new TypeError('Expected "'.concat(token.name, '" to match "').concat(token.pattern, '", but got "').concat(segment, '"'));
         }
@@ -2695,9 +3395,14 @@ function flags(options) {
 }
 function getRouteGenerator(segments, addTrailingSlash) {
   const template = segments.map((segment) => {
-    return segment[0].spread ? `/:${segment[0].content.slice(3)}(.*)?` : "/" + segment.map((part) => {
-      if (part)
-        return part.dynamic ? `:${part.content}` : part.content.normalize().replace(/\?/g, "%3F").replace(/#/g, "%23").replace(/%5B/g, "[").replace(/%5D/g, "]").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return "/" + segment.map((part) => {
+      if (part.spread) {
+        return `:${part.content.slice(3)}(.*)?`;
+      } else if (part.dynamic) {
+        return `:${part.content}`;
+      } else {
+        return part.content.normalize().replace(/\?/g, "%3F").replace(/#/g, "%23").replace(/%5B/g, "[").replace(/%5D/g, "]").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
     }).join("");
   }).join("");
   let trailing = "";
@@ -2758,13 +3463,12 @@ var __privateMethod = (obj, member, method) => {
   __accessCheck(obj, member, "access private method");
   return method;
 };
+var _env;
 var _manifest$1;
 var _manifestData;
 var _routeDataToRouteInfo;
-var _routeCache;
 var _encoder;
 var _logging;
-var _streaming;
 var _renderPage;
 var renderPage_fn;
 var _callEndpoint;
@@ -2773,23 +3477,46 @@ var App = class {
   constructor(manifest, streaming = true) {
     __privateAdd(this, _renderPage);
     __privateAdd(this, _callEndpoint);
+    __privateAdd(this, _env, void 0);
     __privateAdd(this, _manifest$1, void 0);
     __privateAdd(this, _manifestData, void 0);
     __privateAdd(this, _routeDataToRouteInfo, void 0);
-    __privateAdd(this, _routeCache, void 0);
     __privateAdd(this, _encoder, new TextEncoder());
     __privateAdd(this, _logging, {
       dest: consoleLogDestination,
       level: "info"
     });
-    __privateAdd(this, _streaming, void 0);
     __privateSet(this, _manifest$1, manifest);
     __privateSet(this, _manifestData, {
       routes: manifest.routes.map((route) => route.routeData)
     });
     __privateSet(this, _routeDataToRouteInfo, new Map(manifest.routes.map((route) => [route.routeData, route])));
-    __privateSet(this, _routeCache, new RouteCache(__privateGet(this, _logging)));
-    __privateSet(this, _streaming, streaming);
+    __privateSet(this, _env, createEnvironment({
+      adapterName: manifest.adapterName,
+      logging: __privateGet(this, _logging),
+      markdown: manifest.markdown,
+      mode: "production",
+      renderers: manifest.renderers,
+      async resolve(specifier) {
+        if (!(specifier in manifest.entryModules)) {
+          throw new Error(`Unable to resolve [${specifier}]`);
+        }
+        const bundlePath = manifest.entryModules[specifier];
+        switch (true) {
+          case bundlePath.startsWith("data:"):
+          case bundlePath.length === 0: {
+            return bundlePath;
+          }
+          default: {
+            return prependForwardSlash(joinPaths(manifest.base, bundlePath));
+          }
+        }
+      },
+      routeCache: new RouteCache(__privateGet(this, _logging)),
+      site: __privateGet(this, _manifest$1).site,
+      ssr: true,
+      streaming
+    }));
   }
   match(request, { matchNotFound = false } = {}) {
     const url = new URL(request.url);
@@ -2844,19 +3571,21 @@ var App = class {
       throw new Error(`Unsupported route type [${routeData.type}].`);
     }
   }
+  setCookieHeaders(response) {
+    return getSetCookiesFromResponse(response);
+  }
 };
+_env = /* @__PURE__ */ new WeakMap();
 _manifest$1 = /* @__PURE__ */ new WeakMap();
 _manifestData = /* @__PURE__ */ new WeakMap();
 _routeDataToRouteInfo = /* @__PURE__ */ new WeakMap();
-_routeCache = /* @__PURE__ */ new WeakMap();
 _encoder = /* @__PURE__ */ new WeakMap();
 _logging = /* @__PURE__ */ new WeakMap();
-_streaming = /* @__PURE__ */ new WeakMap();
 _renderPage = /* @__PURE__ */ new WeakSet();
 renderPage_fn = async function(request, routeData, mod, status = 200) {
   const url = new URL(request.url);
   const manifest = __privateGet(this, _manifest$1);
-  const renderers2 = manifest.renderers;
+  manifest.renderers;
   const info = __privateGet(this, _routeDataToRouteInfo).get(routeData);
   const links = createLinkStylesheetElementSet(info.links, manifest.site);
   let scripts = /* @__PURE__ */ new Set();
@@ -2873,40 +3602,16 @@ renderPage_fn = async function(request, routeData, mod, status = 200) {
     }
   }
   try {
-    const response = await render({
-      adapterName: manifest.adapterName,
-      links,
-      logging: __privateGet(this, _logging),
-      markdown: manifest.markdown,
-      mod,
-      mode: "production",
+    const ctx = createRenderContext({
+      request,
       origin: url.origin,
       pathname: url.pathname,
       scripts,
-      renderers: renderers2,
-      async resolve(specifier) {
-        if (!(specifier in manifest.entryModules)) {
-          throw new Error(`Unable to resolve [${specifier}]`);
-        }
-        const bundlePath = manifest.entryModules[specifier];
-        switch (true) {
-          case bundlePath.startsWith("data:"):
-          case bundlePath.length === 0: {
-            return bundlePath;
-          }
-          default: {
-            return prependForwardSlash(joinPaths(manifest.base, bundlePath));
-          }
-        }
-      },
+      links,
       route: routeData,
-      routeCache: __privateGet(this, _routeCache),
-      site: __privateGet(this, _manifest$1).site,
-      ssr: true,
-      request,
-      streaming: __privateGet(this, _streaming),
       status
     });
+    const response = await renderPage(mod, ctx, __privateGet(this, _env));
     return response;
   } catch (err) {
     error(__privateGet(this, _logging), "ssr", err.stack || err.message || String(err));
@@ -2920,16 +3625,14 @@ _callEndpoint = /* @__PURE__ */ new WeakSet();
 callEndpoint_fn = async function(request, routeData, mod, status = 200) {
   const url = new URL(request.url);
   const handler = mod;
-  const result = await call(handler, {
-    logging: __privateGet(this, _logging),
+  const ctx = createRenderContext({
+    request,
     origin: url.origin,
     pathname: url.pathname,
-    request,
     route: routeData,
-    routeCache: __privateGet(this, _routeCache),
-    ssr: true,
     status
   });
+  const result = await call(handler, __privateGet(this, _env), ctx);
   if (result.type === "response") {
     if (result.response.headers.get("X-Astro-Response") === "Not-Found") {
       const fourOhFourRequest = new Request(new URL("/404", request.url));
@@ -2950,10 +3653,12 @@ callEndpoint_fn = async function(request, routeData, mod, status = 200) {
     }
     const bytes = __privateGet(this, _encoder).encode(body);
     headers.set("Content-Length", bytes.byteLength.toString());
-    return new Response(bytes, {
+    const response = new Response(bytes, {
       status: 200,
       headers
     });
+    attachToResponse(response, result.cookies);
+    return response;
   }
 };
 var _server = void 0;
@@ -2969,13 +3674,25 @@ function start$1(manifest, options) {
     if (app.match(request)) {
       let ip = (_a2 = connInfo == null ? void 0 : connInfo.remoteAddr) == null ? void 0 : _a2.hostname;
       Reflect.set(request, Symbol.for("astro.clientAddress"), ip);
-      return await app.render(request);
+      const response = await app.render(request);
+      if (app.setCookieHeaders) {
+        for (const setCookieHeader of app.setCookieHeaders(response)) {
+          response.headers.append("Set-Cookie", setCookieHeader);
+        }
+      }
+      return response;
     }
     const url = new URL(request.url);
     const localPath = new URL("." + url.pathname, clientRoot);
     const fileResp = await fetch(localPath.toString());
     if (fileResp.status == 404) {
-      return await app.render(request);
+      const response = await app.render(request);
+      if (app.setCookieHeaders) {
+        for (const setCookieHeader of app.setCookieHeaders(response)) {
+          response.headers.append("Set-Cookie", setCookieHeader);
+        }
+      }
+      return response;
     } else {
       return fileResp;
     }
@@ -3015,242 +3732,6 @@ var adapter = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePropert
   createExports,
   start: start$1
 }, Symbol.toStringTag, { value: "Module" }));
-var AstroJSX = "astro:jsx";
-var Empty = Symbol("empty");
-var toSlotName = (str) => str.trim().replace(/[-_]([a-z])/g, (_, w) => w.toUpperCase());
-function isVNode(vnode) {
-  return vnode && typeof vnode === "object" && vnode[AstroJSX];
-}
-function transformSlots(vnode) {
-  if (typeof vnode.type === "string")
-    return vnode;
-  const slots = {};
-  if (isVNode(vnode.props.children)) {
-    const child = vnode.props.children;
-    if (!isVNode(child))
-      return;
-    if (!("slot" in child.props))
-      return;
-    const name = toSlotName(child.props.slot);
-    slots[name] = [child];
-    slots[name]["$$slot"] = true;
-    delete child.props.slot;
-    delete vnode.props.children;
-  }
-  if (Array.isArray(vnode.props.children)) {
-    vnode.props.children = vnode.props.children.map((child) => {
-      if (!isVNode(child))
-        return child;
-      if (!("slot" in child.props))
-        return child;
-      const name = toSlotName(child.props.slot);
-      if (Array.isArray(slots[name])) {
-        slots[name].push(child);
-      } else {
-        slots[name] = [child];
-        slots[name]["$$slot"] = true;
-      }
-      delete child.props.slot;
-      return Empty;
-    }).filter((v) => v !== Empty);
-  }
-  Object.assign(vnode.props, slots);
-}
-function markRawChildren(child) {
-  if (typeof child === "string")
-    return markHTMLString(child);
-  if (Array.isArray(child))
-    return child.map((c) => markRawChildren(c));
-  return child;
-}
-function transformSetDirectives(vnode) {
-  if (!("set:html" in vnode.props || "set:text" in vnode.props))
-    return;
-  if ("set:html" in vnode.props) {
-    const children = markRawChildren(vnode.props["set:html"]);
-    delete vnode.props["set:html"];
-    Object.assign(vnode.props, { children });
-    return;
-  }
-  if ("set:text" in vnode.props) {
-    const children = vnode.props["set:text"];
-    delete vnode.props["set:text"];
-    Object.assign(vnode.props, { children });
-    return;
-  }
-}
-function createVNode(type, props) {
-  const vnode = {
-    [AstroJSX]: true,
-    type,
-    props: props ?? {}
-  };
-  transformSetDirectives(vnode);
-  transformSlots(vnode);
-  return vnode;
-}
-var ClientOnlyPlaceholder = "astro-client-only";
-var skipAstroJSXCheck = /* @__PURE__ */ new WeakSet();
-var originalConsoleError;
-var consoleFilterRefs = 0;
-async function renderJSX(result, vnode) {
-  switch (true) {
-    case vnode instanceof HTMLString:
-      if (vnode.toString().trim() === "") {
-        return "";
-      }
-      return vnode;
-    case typeof vnode === "string":
-      return markHTMLString(escapeHTML(vnode));
-    case (!vnode && vnode !== 0):
-      return "";
-    case Array.isArray(vnode):
-      return markHTMLString(
-        (await Promise.all(vnode.map((v) => renderJSX(result, v)))).join("")
-      );
-  }
-  if (isVNode(vnode)) {
-    switch (true) {
-      case vnode.type === Symbol.for("astro:fragment"):
-        return renderJSX(result, vnode.props.children);
-      case vnode.type.isAstroComponentFactory: {
-        let props = {};
-        let slots = {};
-        for (const [key, value] of Object.entries(vnode.props ?? {})) {
-          if (key === "children" || value && typeof value === "object" && value["$$slot"]) {
-            slots[key === "children" ? "default" : key] = () => renderJSX(result, value);
-          } else {
-            props[key] = value;
-          }
-        }
-        return markHTMLString(await renderToString(result, vnode.type, props, slots));
-      }
-      case (!vnode.type && vnode.type !== 0):
-        return "";
-      case (typeof vnode.type === "string" && vnode.type !== ClientOnlyPlaceholder):
-        return markHTMLString(await renderElement(result, vnode.type, vnode.props ?? {}));
-    }
-    if (vnode.type) {
-      let extractSlots2 = function(child) {
-        if (Array.isArray(child)) {
-          return child.map((c) => extractSlots2(c));
-        }
-        if (!isVNode(child)) {
-          _slots2.default.push(child);
-          return;
-        }
-        if ("slot" in child.props) {
-          _slots2[child.props.slot] = [..._slots2[child.props.slot] ?? [], child];
-          delete child.props.slot;
-          return;
-        }
-        _slots2.default.push(child);
-      };
-      if (typeof vnode.type === "function" && vnode.type["astro:renderer"]) {
-        skipAstroJSXCheck.add(vnode.type);
-      }
-      if (typeof vnode.type === "function" && vnode.props["server:root"]) {
-        const output2 = await vnode.type(vnode.props ?? {});
-        return await renderJSX(result, output2);
-      }
-      if (typeof vnode.type === "function" && !skipAstroJSXCheck.has(vnode.type)) {
-        useConsoleFilter();
-        try {
-          const output2 = await vnode.type(vnode.props ?? {});
-          if (output2 && output2[AstroJSX]) {
-            return await renderJSX(result, output2);
-          } else if (!output2) {
-            return await renderJSX(result, output2);
-          }
-        } catch (e) {
-          skipAstroJSXCheck.add(vnode.type);
-        } finally {
-          finishUsingConsoleFilter();
-        }
-      }
-      const { children = null, ...props } = vnode.props ?? {};
-      const _slots2 = {
-        default: []
-      };
-      extractSlots2(children);
-      for (const [key, value] of Object.entries(props)) {
-        if (value["$$slot"]) {
-          _slots2[key] = value;
-          delete props[key];
-        }
-      }
-      const slotPromises = [];
-      const slots = {};
-      for (const [key, value] of Object.entries(_slots2)) {
-        slotPromises.push(
-          renderJSX(result, value).then((output2) => {
-            if (output2.toString().trim().length === 0)
-              return;
-            slots[key] = () => output2;
-          })
-        );
-      }
-      await Promise.all(slotPromises);
-      let output;
-      if (vnode.type === ClientOnlyPlaceholder && vnode.props["client:only"]) {
-        output = await renderComponent(
-          result,
-          vnode.props["client:display-name"] ?? "",
-          null,
-          props,
-          slots
-        );
-      } else {
-        output = await renderComponent(
-          result,
-          typeof vnode.type === "function" ? vnode.type.name : vnode.type,
-          vnode.type,
-          props,
-          slots
-        );
-      }
-      if (typeof output !== "string" && Symbol.asyncIterator in output) {
-        let body = "";
-        for await (const chunk of output) {
-          let html = stringifyChunk(result, chunk);
-          body += html;
-        }
-        return markHTMLString(body);
-      } else {
-        return markHTMLString(output);
-      }
-    }
-  }
-  return markHTMLString(`${vnode}`);
-}
-async function renderElement(result, tag, { children, ...props }) {
-  return markHTMLString(
-    `<${tag}${spreadAttributes(props)}${markHTMLString(
-      (children == null || children == "") && voidElementNames.test(tag) ? `/>` : `>${children == null ? "" : await renderJSX(result, children)}</${tag}>`
-    )}`
-  );
-}
-function useConsoleFilter() {
-  consoleFilterRefs++;
-  if (!originalConsoleError) {
-    originalConsoleError = console.error;
-    try {
-      console.error = filteredConsoleError;
-    } catch (error2) {
-    }
-  }
-}
-function finishUsingConsoleFilter() {
-  consoleFilterRefs--;
-}
-function filteredConsoleError(msg, ...rest) {
-  if (consoleFilterRefs > 0 && typeof msg === "string") {
-    const isKnownReactHookError = msg.includes("Warning: Invalid hook call.") && msg.includes("https://reactjs.org/link/invalid-hook-call");
-    if (isKnownReactHookError)
-      return;
-  }
-  originalConsoleError(msg, ...rest);
-}
 var slotName = (str) => str.trim().replace(/[-_]([a-z])/g, (_, w) => w.toUpperCase());
 async function check(Component, props, { default: children = null, ...slotted } = {}) {
   if (typeof Component !== "function")
@@ -3281,7 +3762,7 @@ var server_default = {
   check,
   renderToStaticMarkup
 };
-var $$metadata$5 = createMetadata("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/layouts/AppBar.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [{ type: "inline", value: `
+var $$metadata$5 = createMetadata("/D:/Dev/WebSVG/svg-edge-editor/src/layouts/AppBar.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [{ type: "inline", value: `
     const myprofile = document.getElementById("myprofile")
     myprofile.addEventListener("click",(event)=>{
       document.getElementById("profilemenu").classList.toggle("hidden")
@@ -3290,7 +3771,7 @@ var $$metadata$5 = createMetadata("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/layout
       document.getElementById("profilemenu").classList.add("hidden")
     })
   ` }] });
-var $$Astro$5 = createAstro("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/layouts/AppBar.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
+var $$Astro$5 = createAstro("/D:/Dev/WebSVG/svg-edge-editor/src/layouts/AppBar.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
 var $$AppBar = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
   Astro2.self = $$AppBar;
@@ -3343,7 +3824,7 @@ var $$AppBar = createComponent(async ($$result, $$props, $$slots) => {
     
   </nav>
 
-  `;
+  ${maybeRenderHead($$result)}`;
 });
 var $$file$5 = "D:/Dev/WebSVG/svg-edge-editor/src/layouts/AppBar.astro";
 var $$url$5 = void 0;
@@ -3354,8 +3835,8 @@ var $$module1$2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
   file: $$file$5,
   url: $$url$5
 }, Symbol.toStringTag, { value: "Module" }));
-var $$metadata$4 = createMetadata("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/layouts/Layout.astro", { modules: [{ module: $$module1$2, specifier: "./AppBar.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-var $$Astro$4 = createAstro("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/layouts/Layout.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
+var $$metadata$4 = createMetadata("/D:/Dev/WebSVG/svg-edge-editor/src/layouts/Layout.astro", { modules: [{ module: $$module1$2, specifier: "./AppBar.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+var $$Astro$4 = createAstro("/D:/Dev/WebSVG/svg-edge-editor/src/layouts/Layout.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
 var $$Layout = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$Layout;
@@ -3384,16 +3865,16 @@ var $$module1$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
   file: $$file$4,
   url: $$url$4
 }, Symbol.toStringTag, { value: "Module" }));
-var __freeze = Object.freeze;
-var __defProp = Object.defineProperty;
-var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
-var _a;
-var $$metadata$3 = createMetadata("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/components/SvgEditor.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-var $$Astro$3 = createAstro("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/components/SvgEditor.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
+var __freeze$1 = Object.freeze;
+var __defProp$1 = Object.defineProperty;
+var __template$1 = (cooked, raw) => __freeze$1(__defProp$1(cooked, "raw", { value: __freeze$1(raw || cooked.slice()) }));
+var _a$1;
+var $$metadata$3 = createMetadata("/D:/Dev/WebSVG/svg-edge-editor/src/components/SvgEditor.astro", { modules: [], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+var $$Astro$3 = createAstro("/D:/Dev/WebSVG/svg-edge-editor/src/components/SvgEditor.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
 var $$SvgEditor = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$SvgEditor;
-  return renderTemplate(_a || (_a = __template(["", `<div id="editor">
+  return renderTemplate(_a$1 || (_a$1 = __template$1(["", `<div id="editor">
     <p id="hint" class="text-lg">Drag an SVG File here to get started</p>
 </div>
 
@@ -3443,32 +3924,63 @@ var $$module2$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
   file: $$file$3,
   url: $$url$3
 }, Symbol.toStringTag, { value: "Module" }));
-var Curve1 = "/assets/curve-1.3e3834b0.svg";
+var curve1 = "/assets/curve-1.3e3834b0.svg";
 var $$module1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: Curve1
+  default: curve1
 }, Symbol.toStringTag, { value: "Module" }));
-var Curve2 = "/assets/curve-2.d7980ede.svg";
+var curve2 = "/assets/curve-2.d7980ede.svg";
 var $$module2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  default: Curve2
+  default: curve2
 }, Symbol.toStringTag, { value: "Module" }));
-var $$metadata$2 = createMetadata("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/components/EdgesStyles.astro", { modules: [{ module: $$module1, specifier: "../../public/data/curves/curve-1.svg", assert: {} }, { module: $$module2, specifier: "../../public/data/curves/curve-2.svg", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-var $$Astro$2 = createAstro("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/components/EdgesStyles.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
+var __freeze = Object.freeze;
+var __defProp = Object.defineProperty;
+var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
+var _a;
+var $$metadata$2 = createMetadata("/D:/Dev/WebSVG/svg-edge-editor/src/components/EdgesStyles.astro", { modules: [{ module: $$module1, specifier: "../../public/data/curves/curve-1.svg", assert: {} }, { module: $$module2, specifier: "../../public/data/curves/curve-2.svg", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+var $$Astro$2 = createAstro("/D:/Dev/WebSVG/svg-edge-editor/src/components/EdgesStyles.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
 var $$EdgesStyles = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$EdgesStyles;
-  const STYLES = [];
-  for (const STYLE of STYLES)
-    $$result.styles.add(STYLE);
-  return renderTemplate`${maybeRenderHead($$result)}<div id="edges" class="astro-ORRXZJ7G">
-    <object${addAttribute(Curve1, "data")} class="astro-ORRXZJ7G"></object>
-    <object${addAttribute(Curve2, "data")} class="astro-ORRXZJ7G"></object>
-</div>
+  return renderTemplate(_a || (_a = __template(["", `<div id="curves"></div>
+
+<style>
+    #curves{
+        padding:10px;
+        background-color:bisque;
+        min-width: 200px;
+        min-height: 200px;
+        margin : 5px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        gap:10px;
+    }
+    .item > svg{
+        background-color: aliceblue;
+        width:80%;
+        border-radius: 10%;
+        padding:5px;
+        max-height: 200px;
+    }
+</style>
 
 
-
-`;
+<script type="module">
+    import {inject_curve,dropHandler,dragOverHandler} from "/src/edge_styles_handlers.js"
+    const curves = document.getElementById("curves")
+    curves.addEventListener("drop",dropHandler)
+    curves.addEventListener("dragover",dragOverHandler)
+    const response1 = await fetch(location.href+'data/curves/curve-1.svg')
+    const file1 = await response1.text()
+    const response2 = await fetch(location.href+'data/curves/curve-2.svg')
+    const file2 = await response2.text()
+    inject_curve(file1)
+    inject_curve(file2)
+<\/script>`])), maybeRenderHead($$result));
 });
 var $$file$2 = "D:/Dev/WebSVG/svg-edge-editor/src/components/EdgesStyles.astro";
 var $$url$2 = void 0;
@@ -3479,8 +3991,8 @@ var $$module3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePrope
   file: $$file$2,
   url: $$url$2
 }, Symbol.toStringTag, { value: "Module" }));
-var $$metadata$1 = createMetadata("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/pages/index.astro", { modules: [{ module: $$module1$1, specifier: "../layouts/Layout.astro", assert: {} }, { module: $$module2$1, specifier: "../components/SvgEditor.astro", assert: {} }, { module: $$module3, specifier: "../components/EdgesStyles.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-var $$Astro$1 = createAstro("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/pages/index.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
+var $$metadata$1 = createMetadata("/D:/Dev/WebSVG/svg-edge-editor/src/pages/index.astro", { modules: [{ module: $$module1$1, specifier: "../layouts/Layout.astro", assert: {} }, { module: $$module2$1, specifier: "../components/SvgEditor.astro", assert: {} }, { module: $$module3, specifier: "../components/EdgesStyles.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+var $$Astro$1 = createAstro("/D:/Dev/WebSVG/svg-edge-editor/src/pages/index.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
 var $$Index = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Index;
@@ -3504,8 +4016,8 @@ var _page0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty
   file: $$file$1,
   url: $$url$1
 }, Symbol.toStringTag, { value: "Module" }));
-var $$metadata = createMetadata("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/pages/about.astro", { modules: [{ module: $$module1$1, specifier: "../layouts/Layout.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
-var $$Astro = createAstro("/@fs/D:/Dev/WebSVG/svg-edge-editor/src/pages/about.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
+var $$metadata = createMetadata("/D:/Dev/WebSVG/svg-edge-editor/src/pages/about.astro", { modules: [{ module: $$module1$1, specifier: "../layouts/Layout.astro", assert: {} }], hydratedComponents: [], clientOnlyComponents: [], hydrationDirectives: /* @__PURE__ */ new Set([]), hoisted: [] });
+var $$Astro = createAstro("/D:/Dev/WebSVG/svg-edge-editor/src/pages/about.astro", "http://localhost/", "file:///D:/Dev/WebSVG/svg-edge-editor/");
 var $$About = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$About;
@@ -3545,22 +4057,9 @@ var _page1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty
   file: $$file,
   url: $$url
 }, Symbol.toStringTag, { value: "Module" }));
-async function get({ params }) {
-  const { id } = params;
-  return new Response(
-    JSON.stringify({ welcome: id }),
-    {
-      status: 200
-    }
-  );
-}
-var _page2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  get
-}, Symbol.toStringTag, { value: "Module" }));
-var pageMap = /* @__PURE__ */ new Map([["src/pages/index.astro", _page0], ["src/pages/about.astro", _page1], ["src/pages/api/curves/[id].js", _page2]]);
+var pageMap = /* @__PURE__ */ new Map([["src/pages/index.astro", _page0], ["src/pages/about.astro", _page1]]);
 var renderers = [Object.assign({ "name": "astro:jsx", "serverEntrypoint": "astro/jsx/server.js", "jsxImportSource": "astro" }, { ssr: server_default })];
-var _manifest = Object.assign(deserializeManifest({ "adapterName": "@astrojs/deno", "routes": [{ "file": "", "links": ["assets/about-index.a6f46217.css", "assets/index.8d26205d.css"], "scripts": [{ "type": "inline", "value": 'const e=document.getElementById("myprofile");e.addEventListener("click",t=>{document.getElementById("profilemenu").classList.toggle("hidden")});e.addEventListener("focusout",t=>{document.getElementById("profilemenu").classList.add("hidden")});\n' }], "routeData": { "route": "/", "type": "page", "pattern": "^\\/$", "segments": [], "params": [], "component": "src/pages/index.astro", "pathname": "/", "_meta": { "trailingSlash": "ignore" } } }, { "file": "", "links": ["assets/about-index.a6f46217.css"], "scripts": [{ "type": "inline", "value": 'const e=document.getElementById("myprofile");e.addEventListener("click",t=>{document.getElementById("profilemenu").classList.toggle("hidden")});e.addEventListener("focusout",t=>{document.getElementById("profilemenu").classList.add("hidden")});\n' }], "routeData": { "route": "/about", "type": "page", "pattern": "^\\/about\\/?$", "segments": [[{ "content": "about", "dynamic": false, "spread": false }]], "params": [], "component": "src/pages/about.astro", "pathname": "/about", "_meta": { "trailingSlash": "ignore" } } }, { "file": "", "links": [], "scripts": [], "routeData": { "route": "/api/curves/[id]", "type": "endpoint", "pattern": "^\\/api\\/curves\\/([^/]+?)$", "segments": [[{ "content": "api", "dynamic": false, "spread": false }], [{ "content": "curves", "dynamic": false, "spread": false }], [{ "content": "id", "dynamic": true, "spread": false }]], "params": ["id"], "component": "src/pages/api/curves/[id].js", "_meta": { "trailingSlash": "ignore" } } }], "site": "http://localhost/", "base": "/", "markdown": { "drafts": false, "syntaxHighlight": "shiki", "shikiConfig": { "langs": [], "theme": "github-dark", "wrap": false }, "remarkPlugins": [], "rehypePlugins": [], "remarkRehype": {}, "extendDefaultPlugins": false, "isAstroFlavoredMd": false }, "pageMap": null, "renderers": [], "entryModules": { "\0@astrojs-ssr-virtual-entry": "entry.mjs", "/astro/hoisted.js?q=0": "hoisted.656728d2.js", "astro:scripts/before-hydration.js": "" }, "assets": ["/assets/curve-2.d7980ede.svg", "/assets/curve-1.3e3834b0.svg", "/assets/about-index.a6f46217.css", "/assets/index.8d26205d.css", "/design.png", "/favicon.ico", "/GitHub-Mark-Light-120px-plus.png", "/GitHub-Mark.svg", "/github.png", "/data/voronoi_svg_export.svg", "/libs/Vector.js", "/src/diagram_app.js", "/src/edge-style.js", "/src/editor_handlers.js", "/src/geometry.js", "/src/svg_utils.js", "/src/web-js-utils.js", "/data/curves/curve-1.svg", "/data/curves/curve-2.svg"] }), {
+var _manifest = Object.assign(deserializeManifest({ "adapterName": "@astrojs/deno", "routes": [{ "file": "", "links": ["assets/about.13a68b01.css", "assets/index.fafed9dd.css"], "scripts": [{ "type": "inline", "value": 'const e=document.getElementById("myprofile");e.addEventListener("click",t=>{document.getElementById("profilemenu").classList.toggle("hidden")});e.addEventListener("focusout",t=>{document.getElementById("profilemenu").classList.add("hidden")});\n' }], "routeData": { "route": "/", "type": "page", "pattern": "^\\/$", "segments": [], "params": [], "component": "src/pages/index.astro", "pathname": "/", "_meta": { "trailingSlash": "ignore" } } }, { "file": "", "links": ["assets/about.13a68b01.css"], "scripts": [{ "type": "inline", "value": 'const e=document.getElementById("myprofile");e.addEventListener("click",t=>{document.getElementById("profilemenu").classList.toggle("hidden")});e.addEventListener("focusout",t=>{document.getElementById("profilemenu").classList.add("hidden")});\n' }], "routeData": { "route": "/about", "type": "page", "pattern": "^\\/about\\/?$", "segments": [[{ "content": "about", "dynamic": false, "spread": false }]], "params": [], "component": "src/pages/about.astro", "pathname": "/about", "_meta": { "trailingSlash": "ignore" } } }], "site": "http://localhost/", "base": "/", "markdown": { "drafts": false, "syntaxHighlight": "shiki", "shikiConfig": { "langs": [], "theme": "github-dark", "wrap": false }, "remarkPlugins": [], "rehypePlugins": [], "remarkRehype": {}, "extendDefaultPlugins": false, "isAstroFlavoredMd": false }, "pageMap": null, "renderers": [], "entryModules": { "\0@astrojs-ssr-virtual-entry": "entry.mjs", "/astro/hoisted.js?q=0": "hoisted.656728d2.js", "astro:scripts/before-hydration.js": "" }, "assets": ["/assets/curve-2.d7980ede.svg", "/assets/curve-1.3e3834b0.svg", "/assets/about.13a68b01.css", "/assets/index.fafed9dd.css", "/design.png", "/favicon.ico", "/GitHub-Mark-Light-120px-plus.png", "/GitHub-Mark.svg", "/github.png", "/data/voronoi_svg_export.svg", "/src/diagram_app.js", "/src/edge-style.js", "/src/edge_styles_handlers.js", "/src/editor_handlers.js", "/src/geometry.js", "/src/svg_utils.js", "/src/web-js-utils.js", "/libs/Vector.js", "/data/curves/curve-1.svg", "/data/curves/curve-2.svg"] }), {
   pageMap,
   renderers
 });
@@ -3580,6 +4079,12 @@ export {
   start,
   stop
 };
+/*!
+ * cookie
+ * Copyright(c) 2012-2014 Roman Shtylman
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */
 /**
  * shortdash - https://github.com/bibig/node-shorthash
  *

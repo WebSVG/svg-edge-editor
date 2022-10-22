@@ -85,7 +85,7 @@ class diagram_app{
         const index = parseInt(e.target.id.split('-')[1])
         const that = singleton
         that.edge_style_list[index] += 1
-        if(that.edge_style_list[index]>2){
+        if(that.edge_style_list[index]>estyle.get_nb_styles()){
             that.edge_style_list[index] = 0
         }
         console.log(`edge ${index} at ${that.edge_style_list[index]}`)
