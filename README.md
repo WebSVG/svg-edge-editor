@@ -1,4 +1,7 @@
 # svg-edge-editor
+
+Live demo : https://svg-edge-editor.deno.dev/
+
 SVG import and edit edges with input SVG curves, runs as a service with proper UI
 
 * drag and drop and SVG file
