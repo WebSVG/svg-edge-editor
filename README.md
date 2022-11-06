@@ -2,6 +2,10 @@
 
 Live demo : https://svg-edge-editor.deno.dev/
 
+Gif Demo
+
+![drop and parse curves](./public/data/drop%20and%20parse%20curves.gif)
+
 SVG import and edit edges with input SVG curves, runs as a service with proper UI
 
 * drag and drop and SVG file
