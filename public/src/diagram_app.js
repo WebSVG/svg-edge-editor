@@ -66,20 +66,20 @@ class diagram_app{
         })
     }
 
-    redraw(blink){
-        svg_utl.clear_svg(this.svg)
-        this.draw_edges()
-        this.draw_edges_centers(blink)
-    }
-
+    
     draw_edges(){
         svg_utl.set_parent(this.svg)
         let group = html(this.svg,/*html*/`<g id="svg_g_edges"/>`)
         let d = ""
         this.edges.forEach((e,i)=>{
-                d = d + estyle.curved_line(e,this.edge_style_list[i],1,this.edge_yscale[i])
+            d = d + estyle.curved_line(e,this.edge_style_list[i],1,this.edge_yscale[i])
         })
         return html(group,/*html*/`<path id="svg_path_edges" d="${d}" stroke="#111111" stroke-width="3" fill="none"/>`)
+    }
+    redraw(blink){
+        svg_utl.clear_svg(this.svg)
+        this.draw_edges()
+        this.draw_edges_centers(blink)
     }
     selector_click(e){
         const index = parseInt(e.target.id.split('-')[1])
@@ -115,4 +115,11 @@ class diagram_app{
     }
 }
 
-export{diagram_app}
+function update_estyle_curves_list(item){
+    estyle.update_curves_list(item)
+}
+
+export{
+    diagram_app,
+    update_estyle_curves_list
+}

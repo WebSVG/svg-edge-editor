@@ -1,10 +1,13 @@
+import {update_estyle_curves_list} from './diagram_app.js'
 
 function inject_curve(svg_file){
+    console.log("edge_styles_handles.inject_curves()")
     const item = document.createElement("div")
     item.classList.add("item")
     const curves = document.getElementById("curves")
     curves.appendChild(item );
     item.insertAdjacentHTML( 'beforeend', svg_file );
+    update_estyle_curves_list(item)
 }
 
 function dropHandler(ev) {
